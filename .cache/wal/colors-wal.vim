@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg"
+let background = "#271825"
+let foreground = "#b8b4bc"
+let cursor     = "#b8b4bc"
+
+" Colors
+let color0  = "#271825"
+let color1  = "#8E6E73"
+let color2  = "#A76965"
+let color3  = "#D9735C"
+let color4  = "#D48E55"
+let color5  = "#EE8C6F"
+let color6  = "#64748C"
+let color7  = "#b8b4bc"
+let color8  = "#807d83"
+let color9  = "#8E6E73"
+let color10 = "#A76965"
+let color11 = "#D9735C"
+let color12 = "#D48E55"
+let color13 = "#EE8C6F"
+let color14 = "#64748C"
+let color15 = "#b8b4bc"

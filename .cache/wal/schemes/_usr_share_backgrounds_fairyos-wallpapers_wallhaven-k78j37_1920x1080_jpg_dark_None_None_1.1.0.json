@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#271825",
+        "foreground": "#b8b4bc",
+        "cursor": "#b8b4bc"
+    },
+    "colors": {
+        "color0": "#271825",
+        "color1": "#8E6E73",
+        "color2": "#A76965",
+        "color3": "#D9735C",
+        "color4": "#D48E55",
+        "color5": "#EE8C6F",
+        "color6": "#64748C",
+        "color7": "#b8b4bc",
+        "color8": "#807d83",
+        "color9": "#8E6E73",
+        "color10": "#A76965",
+        "color11": "#D9735C",
+        "color12": "#D48E55",
+        "color13": "#EE8C6F",
+        "color14": "#64748C",
+        "color15": "#b8b4bc"
+    }
+}
