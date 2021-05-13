@@ -11,13 +11,13 @@ compton &
 # Set background image
 
 ## Launch Polybar with random wallpaper
-bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/fairyos-wallpapers/beautiful_wal.png
+bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg
 bash ~/.config/polybar/launch.sh --blocks
 
 nitrogen --restore
 openbox --restore
 #sh ~/.fehbg &
-wal -i /usr/share/backgrounds/fairyos-wallpapers/beautiful_wal.png
+wal -i /usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg
 #tint2 &
 #$HOME/.config/polybar/colorblocks/launch.sh &
 $HOME/.screenlayout/dualscreen.sh &
