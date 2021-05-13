@@ -10,7 +10,7 @@ function run {
 
 # set wallpaper
 #wal -i "/usr/share/backgrounds/fairyos-wallpaper-v1"
-wal -i "/usr/share/backgrounds/fairyos-wallpapers/beautiful_wal.png"
+wal -i "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg"
 #wal -i "$HOME/.config/bspwm/wall.jpg"
 $HOME/.config/polybar/launch_bspwm.sh &
 $HOME/.conky/conky-pywal/./start_conky.sh &
