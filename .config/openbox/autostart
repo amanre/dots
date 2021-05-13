@@ -1,0 +1,66 @@
+
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+# You can set picom to use either xrender or glx
+# Change if issues
+compton &
+
+
+# Set background image
+
+## Launch Polybar with random wallpaper
+bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/fairyos-wallpapers/beautiful_wal.png
+bash ~/.config/polybar/launch.sh --blocks
+
+nitrogen --restore
+openbox --restore
+#sh ~/.fehbg &
+wal -i /usr/share/backgrounds/fairyos-wallpapers/beautiful_wal.png
+#tint2 &
+#$HOME/.config/polybar/colorblocks/launch.sh &
+$HOME/.screenlayout/dualscreen.sh &
+#(am-conky-session --autostart) &
+$HOME/.conky/conky-pywal/./start_conky.sh &
+
+#bluetooth#
+#(blueberry-tray) &
+
+# install xcape - press super to get menu
+xcape -e 'Super_L=Super_L|space'
+
+#on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
+
+## GNOME PolicyKit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Desktop notification
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+
+## Volume control for systray
+#(volumeicon) &
+
+
+## Turn off/on System Beep
+xset b off
+
+## Enable power management
+xfce4-power-manager &
+
+##Clipboard Manager
+(xfce4-clipman) &
+
+## XFCE4 Settings
+xfsettingsd &
+
+(nm-applet) &
+
+(plank) &
+
+#discord &
+
+#insync start &
+
+#dropbox &
