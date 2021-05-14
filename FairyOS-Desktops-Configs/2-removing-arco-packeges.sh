@@ -5,7 +5,7 @@ echo "###### Removing ArcoLinux Desktops, Packages and Configs           #######
 echo "############################################################################"
 sleep 3
 # Removing packages from ARCOLINUX
-sudo pacman -R openbox --noconfirm
+sudo pacman -R openbox 
 sudo pacman -R arcolinux-openbox-git --noconfirm
 sudo pacman -R bspwm --noconfirm
 sudo pacman -R arcolinux-bspwm-git --noconfirm
@@ -24,7 +24,8 @@ sudo pacman -R arcolinux-root-git --noconfirm --needed
 sudo pacman -R arcolinux-xfce-panel-profiles-git --noconfirm
 sudo pacman -R arcolinux-xfce-git --noconfirm
 sudo pacman -R arc-gtk-theme
+sudo pacman -R variety
 echo
 echo "DELETING ARCOLINUX DESKTOPS & FOLDERS WAS SUCCESSFULL !"
 echo
-sleep 3
+sleep 2

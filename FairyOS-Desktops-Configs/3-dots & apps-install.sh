@@ -9,7 +9,7 @@ PKGS=(
     # DEVELOPMENT ---------------------------------------------------------
     
     'visual-studio-code-bin'    # Kickass text editor
-    'android-studio'            # Android Studio
+    #'android-studio'            # Android Studio
 
     
     # FAIRYOS DESKTOPS --------------------------------------------------------------
@@ -45,12 +45,12 @@ PKGS=(
 	'fairyos-dconf-git'
 
 	# THEMEING --------------------------------------------------------------------
-	'bibata-curser-theme'
+	#'bibata-curser-theme'
 	'bibata-rainbow-curser-theme'
 	'candy-gtk-theme'
 	'candy-icon-git'
 	'fairyos-beautyline-git'
-	'fairyos-fonts-git'
+	#'fairyos-fonts-git'
 	'fairyos-gtk-themes-git'
 	'fairyos-icon-themes-git'
 	'fairyos-openbox-themes-git'
@@ -83,7 +83,7 @@ sleep 3
 git clone --recursive --separate-git-dir=$HOME/.dots.git https://github.com/amanre/dots.git /tmp/dots
 rsync -rvl --exclude ".git" /tmp/dots/ $HOME/
 rm -r /tmp/dots
-
+rm -r /~/.dots.git
 echo
 echo "INSTALLATION COMPLETE"
 echo
