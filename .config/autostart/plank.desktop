@@ -2,9 +2,9 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=Telagram
+Name=plank
 Comment=
-Exec=/bin/telegram-desktop
+Exec=/bin/plank
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
