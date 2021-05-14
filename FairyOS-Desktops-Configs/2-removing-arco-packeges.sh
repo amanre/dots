@@ -1,35 +1,30 @@
 #!/bin/bash
 
 echo "############################################################################"
-echo "###### Installation of personal Dotfiles & Configs for ArcoLinux   #########"
-echo "############################################################################" 
-
+echo "###### Removing ArcoLinux Desktops, Packages and Configs           #########"
+echo "############################################################################"
 sleep 3
-
-echo 
-echo "DELETING ARCOLINUX DESKTOPS & FOLDERS"
-echo
-sleep 3
-
-pacman -R openbox arcolinux-openbox-git --noconfirm 
-pacman -Rsc bspwm arcolinux-bspwm-git --noconfirm
-pacman -Rsc arcolinux-zsh-git --noconfirm 
-pacman -Rsc arcolinux-wallpaper-git --noconfirm 
-pacman -Rsc arcolinux-variety-autostart-git --noconfirm
-pacman -Rsc arcolinux-variety-git --noconfirm 
-pacman -Rsc arcolinux-bin-git --noconfirm 
-pacman -Rsc arcolinux-nitrogen-git --noconfirm 
-pacman -Rsc arcolinux-obmenu-generator-git --noconfirm 
-pacman -Rsc arcolinux-openbox-themes-git --noconfirm
-pacman -Rsc arcolinux-plank-git --noconfirm
-pacman -Rsc arcolinux-polybar-git --noconfirm
-pacman -Rsc arcolinux-dconf-all-desktops-git --noconfirm 
-pacman -Rsc arcolinux-root-git --noconfirm --needed
-pacman -Rsc arcolinux-xfce-panel-profiles-git --noconfirm 
-pacman -Rsc arcolinux-xfce-git --noconfirm
-
+# Removing packages from ARCOLINUX
+sudo pacman -R openbox --noconfirm
+sudo pacman -R arcolinux-openbox-git --noconfirm
+sudo pacman -R bspwm --noconfirm
+sudo pacman -R arcolinux-bspwm-git --noconfirm
+sudo pacman -R arcolinux-zsh-git --noconfirm
+sudo pacman -R arcolinux-wallpaper-git --noconfirm
+sudo pacman -R arcolinux-variety-autostart-git --noconfirm
+sudo pacman -R arcolinux-variety-git --noconfirm
+sudo pacman -R arcolinux-bin-git --noconfirm
+sudo pacman -R arcolinux-nitrogen-git --noconfirm
+sudo pacman -R arcolinux-obmenu-generator-git --noconfirm
+sudo pacman -R arcolinux-openbox-themes-git --noconfirm
+sudo pacman -R arcolinux-plank-git --noconfirm
+sudo pacman -R arcolinux-polybar-git --noconfirm
+sudo pacman -R arcolinux-dconf-all-desktops-git --noconfirm
+sudo pacman -R arcolinux-root-git --noconfirm --needed
+sudo pacman -R arcolinux-xfce-panel-profiles-git --noconfirm
+sudo pacman -R arcolinux-xfce-git --noconfirm
+sudo pacman -R arc-gtk-theme
 echo
 echo "DELETING ARCOLINUX DESKTOPS & FOLDERS WAS SUCCESSFULL !"
 echo
-
-
+sleep 3
