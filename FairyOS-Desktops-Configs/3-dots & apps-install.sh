@@ -26,6 +26,7 @@ PKGS=(
 	'kdocker'
 	'shell-color-scripts'
 	'timeshift-autosnap'
+	'grub-btrfs'
 	'trizen'
 	'ttf-meslo-nerd-font-powerlevel10k'
 	'zsh-theme-powerlevel10k-git'
