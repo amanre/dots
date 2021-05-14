@@ -3,6 +3,7 @@
 <channel name="xfce4-notifyd" version="1.0">
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="/usr/share/applications/sayonara.desktop"/>
       <value type="string" value="ca.desrt.dconf-editor"/>
       <value type="string" value="chromium"/>
       <value type="string" value="com.uploadedlobster.peek"/>
@@ -25,6 +26,7 @@
       <value type="string" value="pasystray"/>
       <value type="string" value="pragha"/>
       <value type="string" value="Spotify"/>
+      <value type="string" value="System Config Printer Notification"/>
       <value type="string" value="Terminal"/>
       <value type="string" value="Thunar"/>
       <value type="string" value="Transmission"/>

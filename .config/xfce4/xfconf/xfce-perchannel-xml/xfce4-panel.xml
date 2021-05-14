@@ -111,6 +111,8 @@
         <value type="string" value="pamac-tray"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="sayonara"/>
+        <value type="string" value="SimpleScreenRecorder"/>
         <value type="string" value="TelegramDesktop"/>
         <value type="string" value="discord1"/>
         <value type="string" value="KDocker"/>
@@ -125,7 +127,7 @@
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance65538;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance1946;chromium.instance42702;chromium.instance65538;chromium.instance81891;chromium.instance91925;chromium.instance99883;pragha;sayonara;spotify"/>
     </property>
     <property name="plugin-1" type="string" value="weather">
       <property name="location" type="empty">

@@ -1,5 +1,5 @@
-favorites=arcolinux-welcome-app.desktop,arcolinux-tweak-tool.desktop,firefox.desktop,thunar.desktop,xfce4-terminal.desktop,conkyzen.desktop
-recent=org.xfce.PanelProfiles.desktop,plank.desktop,xfce-wm-settings.desktop,nvidia-settings.desktop,urxvt.desktop,gpick.desktop,kdocker.desktop,spotify-adblock.desktop,spotify.desktop,xfce4-terminal.desktop
+favorites=arcolinux-welcome-app.desktop,arcolinux-tweak-tool.desktop,firefox.desktop,thunar.desktop,xfce4-terminal.desktop,conkyzen.desktop,com.github.themix_project.Oomox.desktop
+recent=visual-studio-code.desktop,telegramdesktop.desktop,xfce-settings-manager.desktop,xfce-ui-settings.desktop,cpu-x.desktop,sayonara.desktop,simplescreenrecorder.desktop,plank.desktop,com.github.themix_project.Oomox.desktop,gpick.desktop
 button-title=ArcoLinux\ \ 
 button-icon=/home/amanre/.config/neofetch/arcolinux-numix.png
 button-single-row=false
