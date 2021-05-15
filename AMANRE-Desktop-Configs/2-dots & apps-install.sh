@@ -22,6 +22,10 @@ sudo pacman -R --noconfirm arcolinux-dconf-all-desktops-git
 #sudo pacman -R --noconfirm arcolinux-qt5-git
 sudo pacman -R --noconfirm arcolinux-xfce-git
 sudo pacman -R --noconfirm variety
+sudo pacman -R --noconfirm arcolinux-openbox-git
+sudo pacman -R --noconfirm arcolinux-bspwm-git
+
+
 PKGS=(
 
     # DEVELOPMENT ---------------------------------------------------------
