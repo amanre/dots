@@ -98,3 +98,9 @@ else
     exit 1
   }
 fi
+
+echo
+echo "Now WE WILL REBOOT FOR YOU !"
+echo
+sleep 2
+reboot

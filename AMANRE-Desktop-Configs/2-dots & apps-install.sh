@@ -104,9 +104,3 @@ rm -r /tmp/dots
 echo
 echo "INSTALLATION COMPLETE"
 echo
-sleep 2
-echo
-echo "WE WILL REBOOT NOW"
-echo
-sleep 3
-reboot
