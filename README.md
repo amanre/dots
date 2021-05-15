@@ -10,3 +10,17 @@ openbox
 
 bspwm
 ![LoopLinux-2021-05-13-1620896297_screenshot_3840x1080](https://user-images.githubusercontent.com/83895060/118103876-b2dcf680-b3da-11eb-8855-12952adea583.jpg)
+
+
+
+# Dots Install #
+
+1) Just clone the Repository "git clone https://github.com/amanre/dots"
+
+2) Go in the folder dots
+
+3) start "1-change-pacman.conf-and-backup-old.sh"
+
+4) than start "2-dots & apps-install.sh"
+
+5) enjoy 3 nicely themed desktops
