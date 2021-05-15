@@ -4,11 +4,24 @@ echo "INSTALLING FAIRYOS DESKTOPS & CONFIGS"
 echo
 sleep 3
 
+sudo pacman -R --noconfirm arcolinux-rofi-git
+sudo pacman -R --noconfirm arcolinux-rofi-themes-git
+sudo pacman -R --noconfirm ark-gtk-theme
+sudo pacman -R --noconfirm arcolinux-plank-git
+sudo pacman -R --noconfirm arcolinux-polybar-git
+sudo pacman -R --noconfirm arcolinux-variety-git
+sudo pacman -R --noconfirm arcolinux-variety-autostart-git
+sudo pacman -R --noconfirm arcolinux-xfce-panel-profiles-git
+sudo pacman -R --noconfirm arcolinux-zsh-git
+sudo pacman -R --noconfirm arcolinux-root-git
+sudo pacman -R --noconfirm arcolinux-nitrogen-git
+sudo pacman -R --noconfirm arcolinux-bin-git
+
 PKGS=(
 
     # DEVELOPMENT ---------------------------------------------------------
     
-    'visual-studio-code-bin'    # Kickass text editor
+    #'visual-studio-code-bin'    # Kickass text editor
     #'android-studio'            # Android Studio
 
     
@@ -29,10 +42,12 @@ PKGS=(
 
 	#FAIRYOS CONFIGS --------------------------------------------------------------
 	'fairyos-nitrogen-git'
+	'fairyos-root-git'
 	'fairyos-xfce-git'
 	'fairyos-alacritty-config-git'
 	'fairyos-bin-git'
 	'fairyos-root-git'
+	'fairyos-rofi-git'
 	'fairyos-jgmenu-config-git'
 	'fairyos-plank-git'
 	'fairyos-polybar-git'
@@ -41,7 +56,7 @@ PKGS=(
 	# THEMEING --------------------------------------------------------------------
 	'bibata-rainbow-cursor-theme'
 	'candy-gtk-theme'
-	'candy-icon-git'
+	'candy-icons-git'
 	'fairyos-beautyline-git'
 	'fairyos-gtk-themes-git'
 	'fairyos-icon-themes-git'
