@@ -21,6 +21,8 @@ bspwm
 
 3) start "1-change-pacman.conf-and-backup-old.sh"
 
-4) than start "2-dots & apps-install.sh"
+4) start "2-dots & apps-install.sh"
 
-5) enjoy 3 nicely themed desktops
+5) start "install.sh"
+
+6) enjoy 3 nicely themed desktops and a nice grub theme !
