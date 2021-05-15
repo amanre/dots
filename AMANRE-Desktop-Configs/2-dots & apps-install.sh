@@ -16,7 +16,6 @@ PKGS=(
 	'spotrec'
 	'spotify-adblock-linux'
 	'fairyos-polybar-git'
-	'fairyos-rofi-git'
 	'fairyos-pywal-conky-git'
 	'kdocker'
 	'shell-color-scripts'
