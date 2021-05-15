@@ -16,12 +16,12 @@ sudo pacman -R --noconfirm arcolinux-zsh-git
 sudo pacman -R --noconfirm arcolinux-root-git
 sudo pacman -R --noconfirm arcolinux-nitrogen-git
 sudo pacman -R --noconfirm arcolinux-bin-git
-sudo pacman -R --noconfirm arcilinux-openbox-themes-git
+sudo pacman -R --noconfirm arcolinux-openbox-themes-git
 sudo pacman -R --noconfirm openbox-themes-pambudi-git
 sudo pacman -R --noconfirm arcolinux-dconf-all-desktops-git
 sudo pacman -R --noconfirm arcolinux-qt5-git
 sudo pacman -R --noconfirm arcolinux-xfce-git
-
+sudo pacman -R --noconfirm variety
 PKGS=(
 
     # DEVELOPMENT ---------------------------------------------------------
