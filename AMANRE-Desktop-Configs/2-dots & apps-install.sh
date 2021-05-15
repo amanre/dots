@@ -13,13 +13,13 @@ sudo pacman -R --noconfirm arcolinux-variety-git
 sudo pacman -R --noconfirm arcolinux-variety-autostart-git
 sudo pacman -R --noconfirm arcolinux-xfce-panel-profiles-git
 sudo pacman -R --noconfirm arcolinux-zsh-git
-sudo pacman -R --noconfirm arcolinux-root-git
+#sudo pacman -R --noconfirm arcolinux-root-git
 sudo pacman -R --noconfirm arcolinux-nitrogen-git
 sudo pacman -R --noconfirm arcolinux-bin-git
 sudo pacman -R --noconfirm arcolinux-openbox-themes-git
 sudo pacman -R --noconfirm openbox-themes-pambudi-git
 sudo pacman -R --noconfirm arcolinux-dconf-all-desktops-git
-sudo pacman -R --noconfirm arcolinux-qt5-git
+#sudo pacman -R --noconfirm arcolinux-qt5-git
 sudo pacman -R --noconfirm arcolinux-xfce-git
 sudo pacman -R --noconfirm variety
 PKGS=(
@@ -47,7 +47,7 @@ PKGS=(
 
 	#FAIRYOS CONFIGS --------------------------------------------------------------
 	'fairyos-nitrogen-git'
-	'fairyos-root-git'
+	#'fairyos-root-git'
 	'fairyos-xfce-git'
 	'fairyos-alacritty-config-git'
 	'fairyos-bin-git'
