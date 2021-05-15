@@ -40,10 +40,12 @@ PKGS=(
 	'fairyos-dconf-git'
 
 	# THEMEING --------------------------------------------------------------------
-	'bibata-rainbow-cursor-theme'
+	#'bibata-curser-theme'
+	'bibata-rainbow-curser-theme'
 	'candy-gtk-theme'
 	'candy-icon-git'
 	'fairyos-beautyline-git'
+	#'fairyos-fonts-git'
 	'fairyos-gtk-themes-git'
 	'fairyos-icon-themes-git'
 	'fairyos-openbox-themes-git'
@@ -78,12 +80,9 @@ sudo chsh $USER -s /bin/zsh
 git clone --recursive --separate-git-dir=$HOME/.dots.git https://github.com/amanre/dots.git /tmp/dots
 rsync -rvl --exclude ".git" /tmp/dots/ $HOME/
 rm -r /tmp/dots
+rm -r /~/.dots.git
 echo
 echo "INSTALLATION COMPLETE"
 echo
 sleep 2
-echo
-echo "WE WILL REBOOT NOW"
-echo
-sleep 3
 reboot
