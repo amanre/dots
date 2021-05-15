@@ -6,7 +6,7 @@ sleep 3
 
 sudo pacman -R --noconfirm arcolinux-rofi-git
 sudo pacman -R --noconfirm arcolinux-rofi-themes-git
-sudo pacman -R --noconfirm ark-gtk-theme
+sudo pacman -R --noconfirm arc-gtk-theme
 sudo pacman -R --noconfirm arcolinux-plank-git
 sudo pacman -R --noconfirm arcolinux-polybar-git
 sudo pacman -R --noconfirm arcolinux-variety-git
@@ -16,6 +16,11 @@ sudo pacman -R --noconfirm arcolinux-zsh-git
 sudo pacman -R --noconfirm arcolinux-root-git
 sudo pacman -R --noconfirm arcolinux-nitrogen-git
 sudo pacman -R --noconfirm arcolinux-bin-git
+sudo pacman -R --noconfirm arcilinux-openbox-themes-git
+sudo pacman -R --noconfirm openbox-themes-pambudi-git
+sudo pacman -R --noconfirm arcolinux-dconf-all-desktops-git
+sudo pacman -R --noconfirm arcolinux-qt5-git
+sudo pacman -R --noconfirm arcolinux-xfce-git
 
 PKGS=(
 
