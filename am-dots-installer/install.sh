@@ -127,7 +127,7 @@ sleep 3
 su
 
 echo 
-echo "Installation of CyberXero grob Theme"
+echo "Installation of CyberXero grub Theme"
 echo
 sleep 3
 
