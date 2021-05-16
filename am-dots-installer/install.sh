@@ -1,3 +1,9 @@
+**************************************************************************
+***      A.Reiz               amanre556@gmail.com                      ***
+**************************************************************************
+*                  Dots Installer only works in Arcolinux                *  
+**************************************************************************        
+
 #!/bin/bash
 echo "backing up pacman.conf and install new pacman .conf"
 sudo cp /etc/pacman.conf /etc/pacman.conf.backup
@@ -35,7 +41,7 @@ sudo pacman -R --noconfirm vivaldi
 sudo pacman -R --noconfirm vivaldi-ffmpeg-codecs
 sudo pacman -R --noconfirm vivaldi-widevine
 sudo pacman -R --noconfirm chromium
-
+----------------------------------------------------------------------------------------
 # Installing Software & Configs
 
 PKGS=(
@@ -52,6 +58,7 @@ PKGS=(
 	'fairyos-polybar-git'
 	'fairyos-pywal-conky-git'
 	'kdocker'
+  'kshutdown'
 	'shell-color-scripts'
 	'timeshift-autosnap'
 	'grub-btrfs'
@@ -62,6 +69,7 @@ PKGS=(
 	'oh-my-zsh-git'
 	'opera'
 	'opera-ffmpeg-codecs'
+  'python-pywal'
 	#'opera-beta'
 	#'opera-beta-ffmpeg-codecs'
 
@@ -113,6 +121,7 @@ echo
 sleep 3
 sudo pacman -S openbox-patched
 sudo pacman -S bspwm-patched
+
 # Change to zsh
 sudo chsh $USER -s /bin/zsh
 
