@@ -131,6 +131,8 @@ echo "Installation of CyberXero grub Theme"
 echo
 sleep 3
 
+sudo chsh $USER -s
+
 # Grub2 Theme Install
 
 ROOT_UID=0
@@ -231,11 +233,13 @@ else
 fi
 
 echo
+echo "INSTALLATION COMPLETE"
+echo
+sleep 2
+
+echo
 echo "Now WE WILL REBOOT FOR YOU !"
 echo
 sleep 2
 reboot
 
-echo
-echo "INSTALLATION COMPLETE"
-echo
