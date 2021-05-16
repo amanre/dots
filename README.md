@@ -17,12 +17,6 @@ Bspwm a tiling Window Manager
 
 1) Just clone the Repository "git clone https://github.com/amanre/dots"
 
-2) Go in the Folder dots
+2) cd in the am-dots-installer and run the install script (./install.sh)
 
-3) Ştart "1-change-pacman.conf-and-backup-old.sh"
-
-4) Start "2-dots & apps-install.sh"
-
-5) Start "install.sh" as root like sudo ./install.sh
-
-6) Enjoy 3 nicely themed Desktops and a nice Grub Theme !
+3) Enjoy 3 nicely themed Desktops and a nice Grub Theme from CyberXero !
