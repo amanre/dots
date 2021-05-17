@@ -360,8 +360,8 @@ echo $(lsb_release -is) $(uname -srm)
 #clear && hfetch
 EDITOR=vim
 #neofetch
-hfetch
+#hfetch
 #sfetch
 ### RANDOM COLOR SCRIPT ###
-#colorscript random
+colorscript random
 #colorscript -e illumina
