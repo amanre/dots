@@ -10,9 +10,11 @@ function run {
 
 # set wallpaper
 #wal -i "/usr/share/backgrounds/fairyos-wallpaper-v1"
-wal -i "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-k78j37_1920x1080.jpg"
+wal -i "/usr/share/backgrounds/fairyos-wallpapers/mikael-gustafsson-forest.jpg"
 #wal -i "$HOME/.config/bspwm/wall.jpg"
-$HOME/.config/polybar/launch_bspwm.sh &
+bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/fairyos-wallpapers/mikael-gustafsson-forest.jpg
+bash ~/.config/polybar/launch.sh --blocks
+#$HOME/.config/polybar/launch_bspwm.sh &
 $HOME/.conky/conky-pywal/./start_conky.sh &
 xsetroot -cursor_name left_ptr &
 #conky -c $HOME/.config/conky/AUR-Nemesis.conkyrc &
