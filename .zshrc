@@ -361,7 +361,7 @@ echo $(lsb_release -is) $(uname -srm)
 EDITOR=vim
 #neofetch
 #hfetch
-#sfetch
+sfetch
 ### RANDOM COLOR SCRIPT ###
 colorscript random
 #colorscript -e illumina
