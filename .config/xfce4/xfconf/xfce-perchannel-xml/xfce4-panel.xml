@@ -4,11 +4,17 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=960;y=16"/>
+      <property name="background-alpha" type="uint" value="76"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.003922"/>
+        <value type="double" value="0.043137"/>
+        <value type="double" value="0.286275"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
       <property name="length" type="uint" value="100"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="24"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="3"/>
@@ -21,19 +27,63 @@
         <value type="int" value="5"/>
         <value type="int" value="2"/>
       </property>
-      <property name="background-alpha" type="uint" value="76"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-rgba" type="array">
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.262745"/>
-        <value type="double" value="0.400000"/>
-        <value type="double" value="1.000000"/>
-      </property>
+      <property name="position" type="string" value="p=6;x=960;y=16"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="24"/>
     </property>
-    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="weather">
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="forecast" type="empty">
+        <property name="days" type="int" value="10"/>
+        <property name="layout" type="int" value="0"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="latitude" type="string" value="52.335847"/>
+        <property name="longitude" type="string" value="9.768806"/>
+        <property name="name" type="string" value="Döhren, Döhren-Wülfel"/>
+      </property>
+      <property name="msl" type="int" value="62"/>
+      <property name="offset" type="string" value="+02:00"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="round" type="bool" value="true"/>
+      <property name="scrollbox" type="empty">
+        <property name="animate" type="bool" value="true"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="show" type="bool" value="true"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid-dark"/>
+      <property name="timezone" type="string" value="Europe/Berlin"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="units" type="empty">
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="temperature" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+        <property name="label1" type="int" value="5"/>
+        <property name="label2" type="int" value="9"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
     <property name="plugin-2" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
       <property name="items" type="array">
         <value type="string" value="-restart"/>
         <value type="string" value="+logout"/>
@@ -48,18 +98,46 @@
         <value type="string" value="-logout-dialog"/>
         <value type="string" value="-hybrid-sleep"/>
       </property>
-      <property name="appearance" type="uint" value="0"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist"/>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="uint" value="2"/>
     </property>
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
+      <property name="known-items" type="array">
+        <value type="string" value="sayonara"/>
+        <value type="string" value="SimpleScreenRecorder"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="KDocker"/>
+        <value type="string" value="variety"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="gpick"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+      </property>
+      <property name="names-ordered" type="array">
+        <value type="string" value="zoom"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="insync"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+      </property>
       <property name="names-visible" type="array">
         <value type="string" value="evolution-alarm-notify"/>
         <value type="string" value="discord"/>
@@ -85,89 +163,11 @@
         <value type="string" value="dropbox"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
-      <property name="names-ordered" type="array">
-        <value type="string" value="zoom"/>
-        <value type="string" value="simplescreenrecorder"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="xfce terminal"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="dropbox"/>
-        <value type="string" value="discord"/>
-        <value type="string" value="insync"/>
-        <value type="string" value="variety"/>
-        <value type="string" value="telegramdesktop"/>
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="flameshot"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="clipman"/>
-      </property>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="gpick"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="clipman"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="pamac-tray"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="sayonara"/>
-        <value type="string" value="SimpleScreenRecorder"/>
-        <value type="string" value="TelegramDesktop"/>
-        <value type="string" value="discord1"/>
-        <value type="string" value="KDocker"/>
-        <value type="string" value="variety"/>
-      </property>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu"/>
-    <property name="clipman" type="empty">
-      <property name="tweaks" type="empty">
-        <property name="never-confirm-history-clear" type="bool" value="true"/>
-      </property>
-    </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1946;chromium.instance42702;chromium.instance65538;chromium.instance81891;chromium.instance91925;chromium.instance99883;pragha;sayonara;spotify"/>
-    </property>
-    <property name="plugin-1" type="string" value="weather">
-      <property name="location" type="empty">
-        <property name="name" type="string" value="Döhren, Döhren-Wülfel"/>
-        <property name="latitude" type="string" value="52.335847"/>
-        <property name="longitude" type="string" value="9.768806"/>
-      </property>
-      <property name="msl" type="int" value="62"/>
-      <property name="timezone" type="string" value="Europe/Berlin"/>
-      <property name="offset" type="string" value="+02:00"/>
-      <property name="cache-max-age" type="int" value="172800"/>
-      <property name="power-saving" type="bool" value="true"/>
-      <property name="units" type="empty">
-        <property name="temperature" type="int" value="0"/>
-        <property name="pressure" type="int" value="0"/>
-        <property name="windspeed" type="int" value="0"/>
-        <property name="precipitation" type="int" value="0"/>
-        <property name="altitude" type="int" value="0"/>
-        <property name="apparent-temperature" type="int" value="0"/>
-      </property>
-      <property name="round" type="bool" value="true"/>
-      <property name="single-row" type="bool" value="true"/>
-      <property name="tooltip-style" type="int" value="1"/>
-      <property name="forecast" type="empty">
-        <property name="layout" type="int" value="0"/>
-        <property name="days" type="int" value="10"/>
-      </property>
-      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid-dark"/>
-      <property name="scrollbox" type="empty">
-        <property name="show" type="bool" value="true"/>
-        <property name="animate" type="bool" value="true"/>
-        <property name="lines" type="int" value="1"/>
-        <property name="color" type="string" value="rgba(0,0,0,0)"/>
-        <property name="use-color" type="bool" value="false"/>
-      </property>
-      <property name="labels" type="empty">
-        <property name="label0" type="int" value="3"/>
-        <property name="label1" type="int" value="5"/>
-        <property name="label2" type="int" value="9"/>
-      </property>
+      <property name="mpris-players" type="string" value="chromium.instance101675;chromium.instance108504;chromium.instance11777;chromium.instance129140;chromium.instance135858;chromium.instance141376;chromium.instance171867;chromium.instance183552;chromium.instance189908;chromium.instance1946;chromium.instance194992;chromium.instance199917;chromium.instance200953;chromium.instance20555;chromium.instance2219;chromium.instance29749;chromium.instance323407;chromium.instance34590;chromium.instance415492;chromium.instance416264;chromium.instance420617;chromium.instance42702;chromium.instance5383;chromium.instance60734;chromium.instance616265;chromium.instance650442;chromium.instance65538;chromium.instance67069;chromium.instance705313;chromium.instance74306;chromium.instance81891;chromium.instance91925;chromium.instance99883;chromium.instance9998;pragha;sayonara;spotify"/>
     </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
