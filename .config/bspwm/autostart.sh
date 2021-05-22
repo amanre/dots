@@ -10,9 +10,9 @@ function run {
 
 # set wallpaper
 #wal -i "/usr/share/backgrounds/fairyos-wallpaper-v1"
-wal -i "/usr/share/backgrounds/fairyos-wallpapers/wallhaven-6omo76.jpg"
+wal -i "/usr/share/backgrounds/amos-wallpapers/wallhaven-6omo76.jpg"
 #wal -i "$HOME/.config/bspwm/wall.jpg"
-bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/fairyos-wallpapers/wallhaven-6omo76.jpg
+bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/backgrounds/amos-wallpapers/wallhaven-6omo76.jpg
 bash ~/.config/polybar/launch.sh --blocks
 #$HOME/.config/polybar/launch_bspwm.sh &
 $HOME/.conky/conky-pywal/./start_conky.sh &
