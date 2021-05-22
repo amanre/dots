@@ -290,8 +290,6 @@ alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
-#iso and version used to install ArcoLinux
-alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -344,7 +342,6 @@ alias sr="sudo reboot"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
-alias downgrada="sudo downgrade --ala-url https://bike.seedhost.eu/arcolinux/"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
@@ -359,9 +356,9 @@ echo $(lsb_release -is) $(uname -srm)
 #pfetch
 #clear && hfetch
 EDITOR=vim
-#neofetch
+neofetch
 #hfetch
-sfetch
+#sfetch
 ### RANDOM COLOR SCRIPT ###
 colorscript random
 #colorscript -e illumina
