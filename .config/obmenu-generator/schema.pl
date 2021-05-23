@@ -28,7 +28,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-	{sep => "ArcoLinux"},
+	{sep => "ArchLinux"},
     #          COMMAND                 LABEL                ICON
     {item => ['exo-open --launch TerminalEmulator',                                 'Terminal',          'terminal']},
     {item => ['exo-open --launch FileManager',                                      'File Manager',      'file-manager']},
@@ -97,7 +97,7 @@ our $SCHEMA = [
     {end_cat => undef},
 
     {sep => undef},
-    {item => ['arcolinux-logout',                      'Lock Screen',                       'lock']},
-    {item => ['arcolinux-logout',                      'Exit Openbox',                      'exit']},
+    {item => ['oblogout',                      'Lock Screen',                       'lock']},
+    {item => ['oblogout',                      'Exit Openbox',                      'exit']},
 
 ]
