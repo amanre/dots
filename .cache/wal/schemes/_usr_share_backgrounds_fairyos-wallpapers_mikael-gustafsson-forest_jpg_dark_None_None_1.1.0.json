@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/fairyos-wallpapers/mikael-gustafsson-forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#04142D",
+        "foreground": "#d7d2ce",
+        "cursor": "#d7d2ce"
+    },
+    "colors": {
+        "color0": "#04142D",
+        "color1": "#EAB079",
+        "color2": "#1F6D8B",
+        "color3": "#5D7188",
+        "color4": "#2E94A8",
+        "color5": "#59A5B1",
+        "color6": "#59BDC9",
+        "color7": "#d7d2ce",
+        "color8": "#969390",
+        "color9": "#EAB079",
+        "color10": "#1F6D8B",
+        "color11": "#5D7188",
+        "color12": "#2E94A8",
+        "color13": "#59A5B1",
+        "color14": "#59BDC9",
+        "color15": "#d7d2ce"
+    }
+}
