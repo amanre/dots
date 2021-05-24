@@ -28,7 +28,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-	{sep => "ArchLinux"},
+	{sep => "Archlinux"},
     #          COMMAND                 LABEL                ICON
     {item => ['exo-open --launch TerminalEmulator',                                 'Terminal',          'terminal']},
     {item => ['exo-open --launch FileManager',                                      'File Manager',      'file-manager']},
@@ -55,7 +55,6 @@ our $SCHEMA = [
     {begin_cat => ['Preferences', 'theme']},
 
         {item => ['nitrogen',                               'Nitrogen',                 'nitrogen']},
-        {item => ['sddm-config-editor',                     'Sddm application',         'theme']},
         {item => ['lxappearance',                           'Lxappearance',             'theme']},
         {item => ['system-config-printer',                  'Printing',                 'printer']},
         {item => ['xfce4-settings-manager',                 'Xfce4 Settings Manager',   'preferences-desktop']},
@@ -75,8 +74,7 @@ our $SCHEMA = [
             {item => ['openbox --restart',                      'Restart Openbox',               'openbox']},
             {item => ['openbox --reconfigure',                  'Reconfigure Openbox',           'openbox']},
         {end_cat => undef},
-        {pipe => ['am-tint2-pipemenu',  'Tint2',        'tint2']},
-        {item => ['tint2conf',          'Tint2 GUI',    'tint2conf']},
+        
 
         {sep => undef},
 
@@ -88,11 +86,8 @@ our $SCHEMA = [
         	{sep  => undef},
         	{item => ['obmenu-generator -p',       'Generate a pipe menu',              'menu-editor']},
         	{item => ['obmenu-generator -s -c',    'Generate a static menu',            'menu-editor']},
-       	 	{item => ['obmenu-generator -p -i',    'Generate a pipe menu with icons',   'menu-editor']},
-        	{item => ['obmenu-generator -s -i -c', 'Generate a static menu with icons', 'menu-editor']},
-       	 	{sep  => undef},
-        	{item => ['obmenu-generator -d',       'Refresh Icon Set',                  'gtk-refresh']},
-    	{end_cat => undef},
+       	  	{sep  => undef},
+        	{end_cat => undef},
 
     {end_cat => undef},
 
