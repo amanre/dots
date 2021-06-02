@@ -360,5 +360,5 @@ neofetch
 #hfetch
 #sfetch
 ### RANDOM COLOR SCRIPT ###
-colorscript random
+#colorscript random
 #colorscript -e illumina
