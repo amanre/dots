@@ -28,7 +28,7 @@ require "$ENV{HOME}/.config/obmenu-generator/config.pl";
 my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
-	{sep => "Archlinux"},
+	{sep => "Endeavouros"},
     #          COMMAND                 LABEL                ICON
     {item => ['exo-open --launch TerminalEmulator',                                 'Terminal',          'terminal']},
     {item => ['exo-open --launch FileManager',                                      'File Manager',      'file-manager']},
@@ -50,7 +50,7 @@ our $SCHEMA = [
 
     {sep => undef},
 
-    {pipe => ['am-conky-pipemenu',  'Conky',        'conky']},
+  
 
     {begin_cat => ['Preferences', 'theme']},
 
