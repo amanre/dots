@@ -1,5 +1,5 @@
-favorites=arcolinux-welcome-app.desktop,arcolinux-tweak-tool.desktop,firefox.desktop,thunar.desktop,xfce4-terminal.desktop,conkyzen.desktop,com.github.themix_project.Oomox.desktop,xfce4-settings-editor.desktop
-recent=sublime_text.desktop,thunderbird.desktop,xfce4-settings-editor.desktop,kdocker.desktop,gpick.desktop,Alacritty.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,com.github.themix_project.Oomox.desktop,visual-studio-code.desktop
+favorites=firefox.desktop,thunar.desktop,xfce4-terminal.desktop,xfce4-settings-editor.desktop
+recent=thunderbird.desktop,xfce4-settings-editor.desktop,kdocker.desktop,gpick.desktop,xfce4-terminal.desktop,xfce-settings-manager.desktop,visual-studio-code.desktop
 button-title=ArcoLinux\ \ 
 button-icon=/home/amanre/.config/neofetch/arcolinux-orchid.png
 button-single-row=false
