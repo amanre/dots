@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/endeavouros/backgrounds/eos_wallpapers_community/blinky_5.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060C19",
+        "foreground": "#aaa3d4",
+        "cursor": "#aaa3d4"
+    },
+    "colors": {
+        "color0": "#060C19",
+        "color1": "#2B4576",
+        "color2": "#5F4A7A",
+        "color3": "#1E3B83",
+        "color4": "#213E86",
+        "color5": "#2B4B8D",
+        "color6": "#3C5EA0",
+        "color7": "#aaa3d4",
+        "color8": "#767294",
+        "color9": "#2B4576",
+        "color10": "#5F4A7A",
+        "color11": "#1E3B83",
+        "color12": "#213E86",
+        "color13": "#2B4B8D",
+        "color14": "#3C5EA0",
+        "color15": "#aaa3d4"
+    }
+}

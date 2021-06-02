@@ -1,7 +1,6 @@
 {
     "wallpaper": "/usr/share/endeavouros/backgrounds/eos_wallpapers_community/krimkerre_2_poly.jpg",
     "alpha": "100",
-
     "special": {
         "background": "#060017",
         "foreground": "#a19fba",
