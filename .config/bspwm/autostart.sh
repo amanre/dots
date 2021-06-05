@@ -18,7 +18,7 @@ bash ~/.config/polybar/launch.sh --blocks
 $HOME/.conky/conky-pywal/./start_conky.sh &
 xsetroot -cursor_name left_ptr &
 #conky -c $HOME/.config/conky/AUR-Nemesis.conkyrc &
-$HOME/.screenlayout/dualscreen.sh &
+$HOME/.config/bspwm/scripts/dualscreen.sh &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 run plank &
 #run xfce4-panel &
