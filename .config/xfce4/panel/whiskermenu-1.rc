@@ -1,6 +1,6 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=nvidia-settings.desktop,xfce-settings-manager.desktop,eos-update-notifier-configure.desktop,ca.desrt.dconf-editor.desktop,akm.desktop,visual-studio-code.desktop,grub-customizer.desktop,org.xfce.PanelProfiles.desktop,xfce-keyboard-settings.desktop,xfce4-settings-editor.desktop
-button-title=Endeavouros
+recent=xfce-wm-settings.desktop,xfce4-file-manager.desktop,nvidia-settings.desktop,xfce-settings-manager.desktop,eos-update-notifier-configure.desktop,ca.desrt.dconf-editor.desktop,akm.desktop,visual-studio-code.desktop,grub-customizer.desktop,org.xfce.PanelProfiles.desktop
+button-title=EndeavourOS
 button-icon=endeavouros
 button-single-row=false
 show-button-title=true
