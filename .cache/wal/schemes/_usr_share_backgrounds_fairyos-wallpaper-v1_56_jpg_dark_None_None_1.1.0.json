@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/backgrounds/fairyos-wallpaper-v1/56.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010107",
+        "foreground": "#98c3d7",
+        "cursor": "#98c3d7"
+    },
+    "colors": {
+        "color0": "#010107",
+        "color1": "#554F65",
+        "color2": "#AA4C49",
+        "color3": "#CB9068",
+        "color4": "#216496",
+        "color5": "#596496",
+        "color6": "#9B6B93",
+        "color7": "#98c3d7",
+        "color8": "#6a8896",
+        "color9": "#554F65",
+        "color10": "#AA4C49",
+        "color11": "#CB9068",
+        "color12": "#216496",
+        "color13": "#596496",
+        "color14": "#9B6B93",
+        "color15": "#98c3d7"
+    }
+}
