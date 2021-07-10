@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=gpick.desktop,kdocker.desktop,sublime_text.desktop,xfce-wm-settings.desktop,xfce4-terminal-emulator.desktop,termite.desktop,guvcview.desktop,system-config-printer.desktop,cups.desktop,arcolinux-tweak-tool.desktop
+recent=gpick.desktop,Alacritty.desktop,kdocker.desktop,sublime_text.desktop,xfce-wm-settings.desktop,xfce4-terminal-emulator.desktop,termite.desktop,guvcview.desktop,system-config-printer.desktop,cups.desktop
 button-title=ArcoLinux
 button-icon=distributor-logo-arcolinux
 button-single-row=false

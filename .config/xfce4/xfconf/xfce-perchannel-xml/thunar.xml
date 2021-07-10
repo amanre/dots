@@ -14,6 +14,6 @@
   <property name="misc-single-click" type="bool" value="true"/>
   <property name="misc-show-delete-action" type="bool" value="true"/>
   <property name="misc-full-path-in-title" type="bool" value="true"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
 </channel>
