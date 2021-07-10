@@ -52,9 +52,9 @@
   <property name="notify-location" type="uint" value="0"/>
   <property name="log-level" type="uint" value="0"/>
   <property name="log-level-apps" type="uint" value="0"/>
-  <property name="expire-timeout" type="int" value="5"/>
+  <property name="expire-timeout" type="int" value="2"/>
   <property name="initial-opacity" type="double" value="1.000000"/>
   <property name="primary-monitor" type="uint" value="0"/>
-  <property name="theme" type="string" value="Default"/>
+  <property name="theme" type="string" value="Bunsen-Dark-He"/>
   <property name="do-slideout" type="bool" value="true"/>
 </channel>
