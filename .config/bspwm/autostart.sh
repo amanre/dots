@@ -10,7 +10,7 @@ function run {
 
 # set wallpaper
 #wal -i "/usr/share/backgrounds/fairyos-wallpaper-v1"
-#wal -i /usr/share/backgrounds/amos-wallpapers/beautiful_wal.jpg
+wal -i /usr/share/backgrounds/amos-wallpapers/wallhaven-k716w7_1920x1080.jpg
 #wal -i "$HOME/.config/bspwm/wall.jpg"
 #bash ~/.config/polybar/blocks/scripts/pywal.sh /usr/share/endeavouros/backgrounds/eos_wallpapers_community/krimkerre_2_poly.jpg
 #bash ~/.config/polybar/launch.sh --blocks
