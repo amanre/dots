@@ -30,8 +30,22 @@
   sudo pacman -R --noconfirm garuda-common-settings
   sudo pacman -R --noconfirm garuda-bash-config
   sudo pacman -R --noconfirm redshift
-  sudo pacman -R --noconfirm xfce4-screensaver
-  
+  sudo pacman -Rs --noconfirm transmission-gtk
+  sudo pacman -Rs --noconfirm geary
+  sudo pacman -Rs --noconfirm celluloid
+  sudo pacman -Rs --noconfirm pitivi
+  sudo pacman -Rs --noconfirm audacity
+  sudo pacman -Rs --noconfirm xfburn
+  sudo pacman -Rs --noconfirm abiword
+  sudo pacman -Rs --noconfirm veracrypt
+  sudo pacman -Rs --noconfirm gtkhash
+  sudo pacman -Rs --noconfirm onboard
+  sudo pacman -Rs --noconfirm vim vim-runtime
+  sudo pacman -Rs --noconfirm gestures
+  sudo pacman -Rs --noconfirm pinta
+  sudo pacman -Rdd --noconfirm hblock
+  sudo pacman -Rdd --noconfirm modemmanager modem-manager-gui
+  sudo pacman -Rdd --noconfirm linux-wifi-hotspot
   echo
   tput setaf 2
   echo "################################################################"

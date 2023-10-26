@@ -47,9 +47,9 @@ adobe-source-sans-fonts
 gsfonts
 
 # Developement ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#sublime-text-4
-#geany
-#geany-plugins
+sublime-text-4
+geany
+geany-plugins
 am-geany-config-git
 sublime-text-4
 geany
@@ -90,7 +90,7 @@ font-manager
 galculator
 gparted
 #grub-customizer
-#themix-full-git
+themix-full-git
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -120,13 +120,13 @@ discord
 #linux-zen-headers
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-cups
-cups-pdf
-ghostscript
-gutenprint
-gtk3-print-backends
-libcups
-system-config-printer
+#cups
+#cups-pdf
+#ghostscript
+#gutenprint
+#gtk3-print-backends
+#libcups
+#system-config-printer
 samsung-unified-driver-common
 samsung-unified-driver-printer
 samsung-unified-driver-scanner
@@ -135,7 +135,7 @@ canon-pixma-ts5055-complete
 asciinema
 simplescreenrecorder
 #obs
-gimp
+#gimp
 gpick
 cava
 inkscape
