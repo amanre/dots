@@ -71,15 +71,11 @@
         <value type="string" value="canon-pixma-ts5055-complete-scangear.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="qt5ct.desktop"/>
-        <value type="string" value="designer.desktop"/>
         <value type="string" value="snapper-tools.desktop"/>
         <value type="string" value="btrfs-assistant.desktop"/>
         <value type="string" value="kvantummanager.desktop"/>
         <value type="string" value="peazip.desktop"/>
         <value type="string" value="xarchiver.desktop"/>
-        <value type="string" value="archlinux-tweak-tool.desktop"/>
-        <value type="string" value="steamtinkerlaunch.desktop"/>
         <value type="string" value="garuda-boot-options.desktop"/>
       </property>
       <property name="show-button-title" type="bool" value="true"/>
