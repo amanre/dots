@@ -90,7 +90,8 @@ fi
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-xfce
+#xfce
+xfce-dualscreen
 #xfce-notebook
 catppuccin-icons
 plank-themes-git
