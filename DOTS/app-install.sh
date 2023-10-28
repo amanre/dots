@@ -50,10 +50,7 @@ gsfonts
 sublime-text-4
 geany
 geany-plugins
-am-geany-config-git
 sublime-text-4
-geany
-geany-plugins
 visual-studio-code-bin
 pycharm-community-edition
 gitahead-bin
@@ -94,30 +91,30 @@ themix-full-git
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#proton-ge-custom-bin
-#protonup-git
-#proton-community-updater
-#steam
-#steam-fonts
-#steam-tweaks
-#steam-native-runtime
-#goverlay-bin
-#bottles
-#gamemode
-#lib32-gamemode
-#lutris
-#wine-staging
-#winetricks
-#playonlinux
+proton-ge-custom-bin
+protonup-git
+proton-community-updater
+steam
+steam-fonts
+steam-tweaks
+steam-native-runtime
+goverlay-bin
+bottles
+gamemode
+lib32-gamemode
+lutris
+wine-staging
+winetricks
+playonlinux
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 discord
-#telegram-desktop
-#skypeforlinux-stable-bin
+telegram-desktop
+skypeforlinux-stable-bin
 
 # Kernels
-#linux-zen
-#linux-zen-headers
+linux-zen
+linux-zen-headers
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #cups
@@ -134,8 +131,8 @@ canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 asciinema
 simplescreenrecorder
-#obs
-#gimp
+obs
+gimp
 gpick
 cava
 inkscape
@@ -220,7 +217,6 @@ unrar
 unzip
 menulibre
 mugshot
-xfce4-genmon-plugin
 xfce4-mpc-plugin
 etcher-bin
 peazip
