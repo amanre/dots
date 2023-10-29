@@ -1,7 +1,7 @@
 favorites=desktop,firefox.desktop,thunar.desktop,xfce4-terminal.desktop
 recent=
-button-title=Endeavouros \ \ 
-button-icon=start-here-archlinux
+button-title=EndeavourOS \ \ 
+button-icon=/usr/share/pixmaps/endeavouros-icon.png
 button-single-row=false
 show-button-title=true
 show-button-icon=true

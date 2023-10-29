@@ -1,7 +1,7 @@
 favorites=arcolinux-welcome-app.desktop,archlinux-tweak-tool.desktop,firefox.desktop,thunar.desktop,xfce4-terminal.desktop,conkyzen.desktop
 recent=xfce4-terminal.desktop,thunar.desktop
 button-title=ArcoLinux\ \ 
-button-icon=start-here-arcolinux
+button-icon=usr/share/pixmaps/arcolinux-white.png
 button-single-row=false
 show-button-title=true
 show-button-icon=true

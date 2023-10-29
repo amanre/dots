@@ -55,7 +55,7 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="button-title" type="string" value=" Garuda"/>
-      <property name="button-icon" type="string" value="/usr/share/pixmaps/garudalinux-logo.png"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/garuda-purple.png"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="true"/>
