@@ -117,6 +117,7 @@ icon-themes-git
 hyfetch
 archlinux-logout-git
 archlinux-logout-themes-git
+betterlockscreen
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -117,13 +117,13 @@ linux-zen
 linux-zen-headers
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#cups
-#cups-pdf
-#ghostscript
-#gutenprint
-#gtk3-print-backends
-#libcups
-#system-config-printer
+cups
+cups-pdf
+ghostscript
+gutenprint
+gtk3-print-backends
+libcups
+system-config-printer
 samsung-unified-driver-common
 samsung-unified-driver-printer
 samsung-unified-driver-scanner
