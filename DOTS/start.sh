@@ -67,7 +67,6 @@ fi
 
 
 sh install-custom-xfce*
-sh app-install*
 sh install-bspwm*
 #sh install-i3wm*
 sh install-rofi*

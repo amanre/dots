@@ -27,6 +27,7 @@ sudo pacman -Rs lshw --noconfirm
 sudo pacman -Rs xf86-video-amdgpu --noconfirm
 sudo pacman -Rs xf86-video-fbdev --noconfirm
 sudo pacman -Rs xf86-video-openchrome --noconfirm
+sudo pacman -R xfce4-screensaver --noconfirm
 if pacman -Qi xf86-video-vmware &> /dev/null; then
   sudo pacman -Rs xf86-video-vmware --noconfirm
 fi

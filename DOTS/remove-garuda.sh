@@ -46,6 +46,7 @@
   sudo pacman -Rdd --noconfirm hblock
   sudo pacman -Rdd --noconfirm modemmanager modem-manager-gui
   sudo pacman -Rdd --noconfirm linux-wifi-hotspot
+  sudo pacman -Rdd --noconfirm xfce4-screensaver
   echo
   tput setaf 2
   echo "################################################################"
