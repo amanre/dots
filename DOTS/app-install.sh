@@ -52,9 +52,9 @@ geany
 geany-plugins
 sublime-text-4
 visual-studio-code-bin
-pycharm-community-edition
-gitahead-bin
-gitfind
+#pycharm-community-edition
+#gitahead-bin
+#gitfind
 
 # Music ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 spotify
@@ -87,34 +87,34 @@ font-manager
 galculator
 gparted
 #grub-customizer
-themix-full-git
+#themix-full-git
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-proton-ge-custom-bin
-protonup-git
-proton-community-updater
-steam
-steam-fonts
-steam-tweaks
-steam-native-runtime
-goverlay-bin
-bottles
-gamemode
-lib32-gamemode
-lutris
-wine-staging
-winetricks
-playonlinux
+#proton-ge-custom-bin
+#protonup-git
+#proton-community-updater
+#steam
+#steam-fonts
+#steam-tweaks
+#steam-native-runtime
+#goverlay-bin
+#bottles
+#gamemode
+#lib32-gamemode
+#lutris
+#wine-staging
+#winetricks
+#playonlinux
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 discord
-telegram-desktop
-skypeforlinux-stable-bin
+#telegram-desktop
+#skypeforlinux-stable-bin
 
 # Kernels
-linux-zen
-linux-zen-headers
+#linux-zen
+#linux-zen-headers
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
@@ -129,12 +129,11 @@ samsung-unified-driver-printer
 samsung-unified-driver-scanner
 canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-asciinema
 simplescreenrecorder
-obs
-gimp
+#obs
+#gimp
 gpick
-cava
+#cava
 inkscape
 simple-scan
 guvcview
@@ -142,91 +141,28 @@ guvcview
 # Utils +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 archiso  
-appstream
-aic94xx-firmware
-arandr
-avahi
-baobab
-bash-completion
-bat
-catfish
-cpuid
-curl
 dmenu
 downgrade
 duf
-evince
-expac
 feh
-git
-gtop
-gvfs-smb
 gnome-disk-utility
-hardinfo-gtk3
-hddtemp
 htop
-hw-probe
 imagewriter
-kvantum
-linux-firmware-qlogic
-logrotate
-lolcat
-lshw
-man-db
-man-pages
-meld
 mintstick-git
-most
 neofetch
-network-manager-applet
-networkmanager-openvpn
-paru-bin
-pcmanfm-gtk3
-pavucontrol
-playerctl
-plank
-polkit-gnome
-python-pywal
-pv
 qbittorrent
-rate mirrors-bin
-ripgrep
-rsync
-scrot
-sparklines-git
-speedtest-cli-git
-squashfs-tools
-time
-the_platium_sercher-bin
-the_silver_searcher
-tree
 vlc
-wd719x-firmware
-wgwt
-xdg-user-dirs
 xorg-kill
 yay-bin
 zsh
 zsh-completions
 zsh-syntax-highlighting
 sane
-gzip
-p7zip
-unace
-unrar
-unzip
-menulibre
-mugshot
 xfce4-mpc-plugin
-etcher-bin
-peazip
-#libpamac-aur
-#pamac-aur
 zsh-theme-powerlevel10k-git
 ttf-meslo-nerd-font-powerlevel10k
 kdocker
 kshutdown
-patool
 xscreensaver
 imagewriter
 

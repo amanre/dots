@@ -114,7 +114,6 @@ bspwm-config-git
 thunderbird
 gtk-themes-git
 icon-themes-git
-hyfetch
 archlinux-logout-git
 archlinux-logout-themes-git
 betterlockscreen

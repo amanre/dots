@@ -74,7 +74,7 @@ sh install-rofi*
 #sh install-leftwm*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
-sh zram.sh*
+#sh zram.sh*
 sh fstrim.sh*
 #sh install-archlinux-tweak-tool-dev*
 
@@ -98,7 +98,7 @@ sh 8-fix-simplescreenrecorder*
 sh 9-fix-sublime-text-icons*
 sh 10-fix-telegram*
 sh 11-autostart-applications*
-sh 12-btrfs-setup*
+#sh 12-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
 #sh 14-dep-calamares*
 
@@ -140,7 +140,5 @@ fi
 sudo chsh $USER -s /bin/zsh
 # Final skel
 sh skel*
-#Load xfce-theme
-$HOME/.config/xfce-themes/apply.sh
 # reboot
 sudo reboot
