@@ -70,12 +70,11 @@ sh install-custom-xfce*
 sh install-bspwm*
 #sh install-i3wm*
 sh install-rofi*
-#sh install-leftwm*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
 #sh zram.sh*
 sh fstrim.sh*
-#sh install-archlinux-tweak-tool-dev*
+
 
 echo
 tput setaf 2
