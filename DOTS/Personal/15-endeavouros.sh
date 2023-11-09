@@ -6,7 +6,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 	echo
 	tput setaf 2
 	echo "################################################################"
-	echo "################### We are on EOS"
+	echo "################### We are on endeavouros"
 	echo "################################################################"
 	tput sgr0
 	echo
@@ -15,10 +15,9 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
 		echo "Changing the whiskermenu"
 		echo
-		cp $installed_dir/settings/eos/whiskermenu-7.rc ~/.config/xfce4/panel/whiskermenu-7.rc
-		sudo cp $installed_dir/settings/eos/whiskermenu-7.rc /etc/skel/.config/xfce4/panel/whiskermenu-7.rc
+		cp $installed_dir/settings/eos/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce4-panel.xml
+		sudo cp $installed_dir/settings/eos/xfce4-panel.xml /etc/skel/.config/xfce4/xconf/xfce4-panel.xml
 		
-		cp $installed_dir/settings/eos/.face ~/.face
+		cp $installed_dir/settings/eos.face ~/.face
 		sudo cp $installed_dir/settings/eos/.face /etc/skel/.face
-
 		
