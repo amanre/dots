@@ -68,7 +68,6 @@ fi
 
 sh install-custom-xfce*
 sh install-bspwm*
-#sh install-i3wm*
 sh install-rofi*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*

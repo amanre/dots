@@ -105,8 +105,6 @@ win11-icons-git
 root-git
 tokyonight-icons
 tela-circle-icon-theme-all
-wallpaper-git
-dualwalls.git
 grub-themes
 catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
