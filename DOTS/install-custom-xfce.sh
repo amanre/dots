@@ -41,17 +41,14 @@ if grep -q custom_repo /etc/pacman.conf; then
   echo
   sh custom/get-custom-repo.sh
   sudo pacman -Sy
-  sudo pacman -S yay-bin
+  
   
 fi
 
 # install yay if not already installed
 if ! command -v yay > /dev/null; then
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si
-    cd ..
-    rm -rf yay
+    sudo pacman -S yay-bin --noconfirm --needed
+    
 fi
 
 echo
@@ -90,8 +87,8 @@ fi
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-#xfce
-xfce-dualscreen
+xfce
+#xfce-dualscreen
 #xfce-notebook
 catppuccin-icons
 plank
@@ -110,7 +107,6 @@ catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
 catppuccin-gtk-theme-frappe
 catppuccin-gtk-theme-latte
-bspwm-config-git
 thunderbird
 gtk-themes-git
 icon-themes-git
@@ -166,24 +162,6 @@ discord
 #telegram-desktop
 #skypeforlinux-stable-bin
 
-# Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-#proton-ge-custom-bin
-#protonup-git
-#proton-community-updater
-#steam
-#steam-fonts
-#steam-tweaks
-#steam-native-runtime
-#goverlay-bin
-#bottles
-#gamemode
-#lib32-gamemode
-#lutris
-#wine-staging
-#winetricks
-#playonlinux
-
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #linux-zen
 #linux-zen-headers
@@ -216,7 +194,7 @@ archiso
 dmenu
 downgrade
 duf
-feh
+#feh
 gnome-disk-utility
 htop
 imagewriter
@@ -225,7 +203,6 @@ neofetch
 qbittorrent
 vlc
 xorg-kill
-yay-bin
 zsh
 zsh-completions
 zsh-syntax-highlighting
