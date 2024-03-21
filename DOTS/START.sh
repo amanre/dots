@@ -68,7 +68,7 @@ fi
 
 sh install-custom-xfce*
 sh install-bspwm*
-#sh install-rofi*
+sh install-rofi*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
 #sh zram.sh*
