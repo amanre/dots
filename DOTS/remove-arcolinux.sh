@@ -110,5 +110,5 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     #sudo pacman -Rs thunar-volman --noconfirm
     sudo pacman -Rs rxvt-unicode --noconfirm
     sudo pacman -Rs rxvt-unicode-terminfo --noconfirm
-      
+    sudo pacman -Rs arcolinux-hyfetch-git  
   fi

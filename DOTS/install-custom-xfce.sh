@@ -47,7 +47,7 @@ fi
 
 # install yay if not already installed
 if ! command -v yay > /dev/null; then
-    sudo pacman -S yay-bin --noconfirm --needed
+    sudo pacman -S yay-git --noconfirm --needed
     
 fi
 
@@ -87,21 +87,21 @@ fi
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-xfce
+#xfce
 #xfce-dualscreen
-#xfce-notebook
+xfce-notebook
 catppuccin-icons
 plank
 plank-themes-git
 conky-lua-archers
 pywal-conky-git
 python-pywal
-gtk-themes-git
 dracular-icons
 win11-icons-git
 root-git
 tokyonight-icons
-tela-circle-icon-theme-all
+tela-icons
+#tela-circle-icon-theme-all
 grub-themes
 catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
@@ -127,12 +127,11 @@ gsfonts
 sublime-text-4
 geany
 geany-plugins
-sublime-text-4
-visual-studio-code-bin
+#visual-studio-code-bin
 spotify
 spotify-adblock-git
 spotrec
-pragha
+#pragha
 mpv
 soundconverter
 file-roller
@@ -159,8 +158,8 @@ gparted
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 discord
-#telegram-desktop
-#skypeforlinux-stable-bin
+telegram-desktop
+skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #linux-zen
@@ -174,14 +173,14 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-samsung-unified-driver-common
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
-canon-pixma-ts5055-complete
+#samsung-unified-driver-common
+#samsung-unified-driver-printer
+#samsung-unified-driver-scanner
+#canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
 #obs
-#gimp
+gimp
 gpick
 #cava
 inkscape
@@ -194,7 +193,7 @@ archiso
 dmenu
 downgrade
 duf
-#feh
+feh
 gnome-disk-utility
 htop
 imagewriter
