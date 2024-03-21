@@ -84,6 +84,8 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     sudo pacman -Rs arcolinux-termite-themes-git --noconfirm
     sudo pacman -Rs arcolinux-variety-git --noconfirm
     sudo pacman -Rs arcolinux-variety-autostart-git --noconfirm
+    sudo pacman -Rs yay-bin --noconfirm
+    sudo pacman -Rs paru-bin --noconfirm
     sudo pacman -Rs variety --noconfirm
     sudo pacman -Rs arcolinux-wallpapers-git --noconfirm
     sudo pacman -Rs arcolinux-xfce-panel-profiles-git --noconfirm
@@ -101,6 +103,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     sudo pacman -Rs gnome-software-packagekit-plugin --noconfirm
     sudo pacman -Rs termite --noconfirm
     sudo pacman -Rs xfce4-screensaver --noconfirm
+    sudo pacman -Rs pamac-all --noconfirm
     #sudo pacman -Rs sardi-icons --noconfirm
     sudo pacman -Rs xf86-video-amdgpu --noconfirm
     sudo pacman -Rs xf86-video-fbdev --noconfirm

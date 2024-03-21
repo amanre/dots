@@ -101,6 +101,8 @@ win11-icons-git
 root-git
 tokyonight-icons
 tela-icons
+paru-git
+yay-git
 #tela-circle-icon-theme-all
 grub-themes
 catppuccin-gtk-theme-mocha
