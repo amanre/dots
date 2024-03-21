@@ -31,12 +31,12 @@ if pacman -Qi xf86-video-vmware &> /dev/null; then
   sudo pacman -Rs xf86-video-vmware --noconfirm
 fi
 sudo pacman -Rs xf86-video-ati --noconfirm
-sudo pacman -Rs xf86-video-nouveau --noconfirm
+#sudo pacman -Rs xf86-video-nouveau --noconfirm
 sudo pacman -Rs xf86-video-vesa --noconfirm
 sudo pacman -R --noconfirm xfce4-artwork
 sudo rm -rf /usr/share/backgrounds/xfce
-sudo pacman -Rs broadcom-wl-dkms --noconfirm
-sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
+#sudo pacman -Rs broadcom-wl-dkms --noconfirm
+#sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
 
 sudo pacman -R --noconfirm adobe-source-han-sans-cn-fonts
 sudo pacman -R --noconfirm adobe-source-han-sans-jp-fonts
@@ -91,6 +91,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     sudo pacman -Rs arcolinux-config-all-desktops-git --noconfirm
     sudo pacman -Rs arcolinux-dconf-all-desktops-git --noconfirm
     sudo pacman -Rs arcolinux-neofetch-git --noconfirm
+    sudo pacman -Rs arcolinux-hyfetch-git --noconfirm
     sudo pacman -Rs chromium --noconfirm
     sudo pacman -Rs urxvt-fullscreen --noconfirm
     sudo pacman -Rs urxvt-perls --noconfirm
@@ -110,5 +111,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     #sudo pacman -Rs thunar-volman --noconfirm
     sudo pacman -Rs rxvt-unicode --noconfirm
     sudo pacman -Rs rxvt-unicode-terminfo --noconfirm
-    sudo pacman -Rs arcolinux-hyfetch-git  
+    
+
+
   fi

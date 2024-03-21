@@ -117,19 +117,19 @@ if [[ "$choice" -eq 1 ]]; then
   
   echo ""
   echo "Change.Arco... "
- sh 16-arco.sh
+ #sh 16-arco.sh
 
 elif [[ "$choice" -eq 2 ]]; then
   
   echo ""
   echo "Change Garuda.... "
-  sh 17-garuda.sh
+  #sh 17-garuda.sh
 
 elif [[ "$choice" -eq 3 ]]; then
 
   echo ""
   echo "Change Endeavouros.... "
-  sh 15-endeavouros.sh
+  #sh 15-endeavouros.sh
    
 fi
 
