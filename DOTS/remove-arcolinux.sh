@@ -22,19 +22,19 @@ echo
 
 sudo pacman -R --noconfirm archinstall
 #sudo pacman -Rs pragha --noconfirm
-sudo pacman -Rs lftp --noconfirm
-sudo pacman -Rs lshw --noconfirm
-sudo pacman -Rs xf86-video-amdgpu --noconfirm
-sudo pacman -Rs xf86-video-fbdev --noconfirm
-sudo pacman -Rs xf86-video-openchrome --noconfirm
+#sudo pacman -Rs lftp --noconfirm
+#sudo pacman -Rs lshw --noconfirm
+#sudo pacman -Rs xf86-video-amdgpu --noconfirm
+#sudo pacman -Rs xf86-video-fbdev --noconfirm
+#sudo pacman -Rs xf86-video-openchrome --noconfirm
 if pacman -Qi xf86-video-vmware &> /dev/null; then
   sudo pacman -Rs xf86-video-vmware --noconfirm
 fi
-sudo pacman -Rs xf86-video-ati --noconfirm
+#sudo pacman -Rs xf86-video-ati --noconfirm
 #sudo pacman -Rs xf86-video-nouveau --noconfirm
-sudo pacman -Rs xf86-video-vesa --noconfirm
-sudo pacman -R --noconfirm xfce4-artwork
-sudo rm -rf /usr/share/backgrounds/xfce
+#sudo pacman -Rs xf86-video-vesa --noconfirm
+#sudo pacman -R --noconfirm xfce4-artwork
+#sudo rm -rf /usr/share/backgrounds/xfce
 #sudo pacman -Rs broadcom-wl-dkms --noconfirm
 #sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
 
@@ -66,7 +66,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     sudo systemctl disable tlp.service
     sudo pacman -Rs tlp --noconfirm
     sudo pacman -Rs xf86-video-ati --noconfirm
-    sudo pacman -Rs xf86-video-nouveau --noconfirm
+   # sudo pacman -Rs xf86-video-nouveau --noconfirm
     sudo pacman -Rs xf86-video-vesa --noconfirm
     sudo pacman -Rs arcolinux-root-git --noconfirm
     sudo pacman -Rs arcolinux-xfce-git --noconfirm

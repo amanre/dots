@@ -42,7 +42,7 @@ echo
 echo "Which Software to remove ?"
 echo "1- ArcoLinux"
 echo "2- Garuda Linux"
-echo "3- Endeavoueos"
+echo "3- Endeavoureos"
 read choice
 
 if [[ "$choice" -eq 1 ]]; then
@@ -98,40 +98,6 @@ sh 11-autostart-applications*
 sh 12-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
 #sh 14-dep-calamares*
-
-echo
-tput setaf 2
-echo "################################################################"
-echo "################### Which Wiskersmenu to change"
-echo "################################################################"
-tput sgr0
-echo
-
-echo "Take a choice ?"
-echo "1- ArcoLinux"
-echo "2- Garuda Linux"
-echo "3- Endeavoueos"
-read choice
-
-if [[ "$choice" -eq 1 ]]; then
-  
-  echo ""
-  echo "Change.Arco... "
- #sh 16-arco.sh
-
-elif [[ "$choice" -eq 2 ]]; then
-  
-  echo ""
-  echo "Change Garuda.... "
-  #sh 17-garuda.sh
-
-elif [[ "$choice" -eq 3 ]]; then
-
-  echo ""
-  echo "Change Endeavouros.... "
-  #sh 15-endeavouros.sh
-   
-fi
 
 # change shell to zsh
 sudo chsh $USER -s /bin/zsh
