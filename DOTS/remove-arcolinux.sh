@@ -113,6 +113,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
     #sudo pacman -Rs thunar-media-tags-plugin --noconfirm
     #sudo pacman -Rs thunar-volman --noconfirm
     sudo pacman -Rs rxvt-unicode --noconfirm
+    sudo pacman -Rs arcolinux-xfce-prime-git --noconfirm
     sudo pacman -Rs rxvt-unicode-terminfo --noconfirm
     
 
