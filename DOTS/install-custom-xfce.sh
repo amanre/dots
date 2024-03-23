@@ -51,37 +51,31 @@ if ! command -v yay > /dev/null; then
     
 fi
 
-echo
-tput setaf 2
-echo "################################################################"
-echo "################### Install Software"
-echo "################################################################"
-tput sgr0
-echo
+echo "
+=================================
+=     Which Graphics Card?      =
+=================================
 
-echo "Which GPU Driver you want to install?"
-echo "1- NVIDIA"
-echo "2- AMD"
-echo "Any Key To SKIP"
-read choice
+1) Intel
+2) AMD
+3) Nvidia
+Defaults to AMD if you choose
+something else
 
-if [[ "$choice" -eq 1 ]]; then
-  
-  echo ""
-  echo "Installing NVIDIA Drivers.... "
- sh nvidia.sh
+"
 
-elif [[ "$choice" -eq 2 ]]; then
-  
-  echo ""
-  echo "Installing AMD Drivers.... "
-  sh amd.sh
+read GRAPHICSCARD
+case $GRAPHICSCARD in
+1)
+  sudo pacman -S --noconfirm xf86-video-intel mesa lib32-mesa lib32-vulkan-intel vulkan-intel;;
+2)
+  sudo pacman -S --noconfirm xf86-video-amdgpu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau;;
+3)
+  sudo pacman -S --noconfirm nvidia-dkms nvidia-utils;;
+*)
+  sudo pacman -S --noconfirm xf86-video-amdgpu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau;;
+esac
 
-else
-
-  break 
-   
-fi
 
 
 PKGS=(

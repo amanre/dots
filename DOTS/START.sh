@@ -39,32 +39,8 @@ echo "################################################################"
 tput sgr0
 echo
 
-echo "Which Software to remove ?"
-echo "1- ArcoLinux"
-echo "2- Garuda Linux"
-echo "3- Endeavoureos"
-read choice
-
-if [[ "$choice" -eq 1 ]]; then
-  
-  echo ""
   echo "Removing ArcoLinux conflicting files.... "
- sh remove-arcolinux.sh
-
-elif [[ "$choice" -eq 2 ]]; then
-  
-  echo ""
-  echo "Removing Garuda Linux conflicting files.... "
-  sh remove-garuda.sh
-
-elif [[ "$choice" -eq 3 ]]; then
-
-  echo ""
-  echo "Removing Endeavouros conflicting files.... "
-  sh remove-endeavouros.sh
-   
-fi
-
+  sh remove-arcolinux.sh
 
 sh install-custom-xfce*
 sh install-bspwm*
