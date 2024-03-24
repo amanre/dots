@@ -65,13 +65,13 @@ sh 1-change-packer-name*
 #sh 2-make-chroot-enviroment*
 sh 3-change-compression-settings*
 sh 4-install-personal-settings-folders*
-sh 5-install-personal-settings-bookmarks*
+#sh 5-install-personal-settings-bookmarks*
 sh 7-install-personal-settings-screenshot-to-jpg*
 sh 8-fix-simplescreenrecorder*
 sh 9-fix-sublime-text-icons*
 sh 10-fix-telegram*
 sh 11-autostart-applications*
-sh 12-btrfs-setup*
+#sh 12-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
 #sh 14-dep-calamares*
 
