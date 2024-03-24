@@ -97,6 +97,7 @@ tokyonight-icons
 tela-icons
 paru-git
 yay-git
+walls
 #tela-circle-icon-theme-all
 grub-themes
 catppuccin-gtk-theme-mocha
