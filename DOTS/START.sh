@@ -39,8 +39,11 @@ echo "################################################################"
 tput sgr0
 echo
 
-  echo "Removing ArcoLinux conflicting files.... "
-  sh remove-arcolinux.sh
+  #echo "Removing ArcoLinux conflicting files.... "
+  #sh remove-arcolinux.sh
+
+  echo "Removing EndeavourOS conflicting files.... "
+  sh remove-eos.sh
 
 sh install-custom-xfce*
 sh install-bspwm*
