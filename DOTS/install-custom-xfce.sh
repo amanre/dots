@@ -84,6 +84,7 @@ PKGS=(
 #xfce
 #xfce-dualscreen
 xfce-notebook
+xfce-themes
 catppuccin-icons
 plank
 plank-themes-git
@@ -97,6 +98,7 @@ tokyonight-icons
 tela-icons
 paru-git
 yay-git
+yad
 walls
 #tela-circle-icon-theme-all
 grub-themes

@@ -33,8 +33,8 @@ fi
 #sudo pacman -Rs xf86-video-ati --noconfirm
 #sudo pacman -Rs xf86-video-nouveau --noconfirm
 #sudo pacman -Rs xf86-video-vesa --noconfirm
-#sudo pacman -R --noconfirm xfce4-artwork
-#sudo rm -rf /usr/share/backgrounds/xfce
+sudo pacman -R --noconfirm xfce4-artwork
+sudo rm -rf /usr/share/backgrounds/xfce
 #sudo pacman -Rs broadcom-wl-dkms --noconfirm
 #sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
 
