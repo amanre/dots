@@ -30,7 +30,7 @@ sudo pacman -S --noconfirm --needed arco-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed astronout-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed beach-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed biohazard-xfce-theme-1366x768
-sudo pacman -S --noconfirm --needed itysunset-xfce-theme-1366x768
+sudo pacman -S --noconfirm --needed citysunset-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed cutecat-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed cybercity-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed cybervr-xfce-theme-1366x768
