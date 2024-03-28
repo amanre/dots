@@ -52,7 +52,7 @@ sh software-AUR-repo*
 sh mpd-ncmpcpp*
 #sh zram.sh*
 sh fstrim.sh*
-
+sh install-xfce-themes*
 
 echo
 tput setaf 2

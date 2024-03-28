@@ -81,10 +81,8 @@ esac
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-#xfce
-#xfce-dualscreen
-xfce-notebook
-xfce-themes
+
+xfce-theme-manager
 catppuccin-icons
 plank
 plank-themes-git
@@ -99,8 +97,6 @@ tela-icons
 paru-git
 yay-git
 yad
-walls
-#tela-circle-icon-theme-all
 grub-themes
 catppuccin-gtk-theme-mocha
 catppuccin-gtk-theme-macchiato
