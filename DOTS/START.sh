@@ -53,6 +53,7 @@ sh mpd-ncmpcpp*
 #sh zram.sh*
 sh fstrim.sh*
 sh install-xfce-themes-for-notebook*
+#sh install-xfce-themes-for-notebook-1366x768*
 
 echo
 tput setaf 2
