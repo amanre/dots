@@ -70,6 +70,7 @@ surfgirl-xfce-theme
 tokionight-xfce-theme
 urbanangel-xfce-theme
 view-xfce-theme
+lake-sunrise-xfce-theme
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING ${PKG}"

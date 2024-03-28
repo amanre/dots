@@ -51,7 +51,7 @@ sudo pacman -S --noconfirm --needed surfgirl-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed tokionight-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed urbanangel-xfce-theme-1366x768
 sudo pacman -S --noconfirm --needed view-xfce-theme-1366x768
-
+sudo pacman -S --noconfirm --needed lake-sunrise-xfce-theme
 
 
 
