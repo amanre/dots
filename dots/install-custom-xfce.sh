@@ -80,8 +80,7 @@ PKGS=(
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 custom-xfce4
 xfce-theme-manager
-#xfce-dualscreen
-#xfce-notebook
+pamac-aur
 catppuccin-icons
 plank
 plank-themes-git
@@ -110,6 +109,7 @@ thunderbird
 gtk-themes-git
 icon-themes-git
 archlinux-logout-git
+archlinux-tweak-tool-git
 archlinux-logout-themes-git
 betterlockscreen
 ttf-bitstream-vera
@@ -124,9 +124,10 @@ ttf-ubuntu-font-family
 adobe-source-sans-fonts
 gsfonts
 sublime-text-4
-#geany
+geany
+arcolinux-geany-git
 #geany-plugins
-#visual-studio-code-bin
+visual-studio-code-bin
 spotify
 spotify-adblock-git
 spotrec
@@ -161,8 +162,8 @@ telegram-desktop
 skypeforlinux-stable-bin
 
 # Kernels ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#linux-zen
-#linux-zen-headers
+linux-zen
+linux-zen-headers
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
@@ -216,6 +217,7 @@ imagewriter
 xorg-xsetroot
 flameshot
 gnome-screenshot
+arcilinux-kvantum-git
 
 # Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 libreoffice-fresh

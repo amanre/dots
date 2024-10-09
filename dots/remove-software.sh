@@ -183,9 +183,12 @@ if grep -q "EndeavourOS" /etc/os-release; then
   sudo pacman -Rdd --noconfirm eos-settings-xfce4
   sudo pacman -Rdd --noconfirm modemmanager modemmanager-qt
   sudo pacman -R --noconfirm yay
-
+  sudo pacman -R --noconfirm sddm
+  sudo pacman -R --noconfirm endeavouros-theming
+  sudo pacman -R --noconfirm endeavouros-xfce-terminal-colors 
+  
   # sudo rm -r /etc/skel/.config/Kvantum
-  # sudo rm -r /etc/skel/.config/gtk-3.0
+   sudo rm -r /etc/skel/.config/gtk-3.0
   # sudo rm -r /etc/skel/.config/variety
    sudo rm -r /etc/skel/.config/Thunar
    sudo rm -r /etc/skel/.config/xfce4
