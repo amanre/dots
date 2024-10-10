@@ -38,6 +38,7 @@ echo "################### Backing up your configs in your home folder"
 echo "################################################################"
 tput sgr0
 echo
+sleep 2
 cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)
 echo
 
@@ -47,6 +48,7 @@ echo "################### Remove Conflicting Software"
 echo "################################################################"
 tput sgr0
 echo
+sleep 2
 sh get-the-keys-and-repos.sh*
 sh remove-software.sh*
 sh install-custom-xfce*
@@ -66,14 +68,15 @@ echo "################### Going to the Personal folder"
 echo "################################################################"
 tput sgr0
 echo
+sleep 2
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/Personal
 sh 1-change-packer-name*
 #sh 2-make-chroot-enviroment*
 sh 3-change-compression-settings*
-sh 4-install-personal-settings-folders*
-sh 5-install-personal-settings-bookmarks*
+#sh 4-install-personal-settings-folders*
+#sh 5-install-personal-settings-bookmarks*
 #sh 6-firefox-fix-unreadable-text-for-dark-themes-settings.sh*
 sh 7-install-personal-settings-screenshot-to-jpg*
 sh 8-fix-simplescreenrecorder*
@@ -92,5 +95,21 @@ sh refresh_conky.sh*
 sudo chsh $USER -s /bin/zsh
 # Final skel
 sh skel*
-# reboot
-sudo reboot
+echo "
+#=================================
+#= Do you want to reboot now ?   =
+#=================================
+
+1) yes
+2) no
+
+
+"
+
+read Reboot
+case $Reboot in
+1)
+  sudo sudo reboot ;;
+2)
+  do nothing;;
+
