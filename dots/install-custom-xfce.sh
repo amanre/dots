@@ -250,8 +250,9 @@ default-xfce-theme
 dawn-xfce-theme
 citylights-xfce-theme
 red-moon-xfce-theme
-soane-nebula-theme
+space-nebula-theme
 phoenix-xfce-theme
+northern-lights-xfce-theme
 
 )
 

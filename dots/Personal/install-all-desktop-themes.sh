@@ -38,7 +38,7 @@ sudo pacman -S mountainlake-xfce-theme --noconfirm
 sudo pacman -S mountainsunset-xfce-theme --noconfirm
 sudo pacman -S mountain-xfce-theme --noconfirm
 sudo pacman -S moonlight-xfce-theme --noconfirm
-sudo pacman -S northern-xfce-theme --noconfirm
+sudo pacman -S northern-lights-xfce-theme --noconfirm
 sudo pacman -S operahouse-xfce-theme --noconfirm
 sudo pacman -S neon-xfce-theme --noconfirm
 sudo pacman -S panorama-xfce-theme --noconfirm
