@@ -12,6 +12,7 @@ sudo pacman -S cutecat-xfce-theme --noconfirm
 sudo pacman -S citylights-xfce-theme --noconfirm
 sudo pacman -S cybercity-xfce-theme --noconfirm
 sudo pacman -S cybervr-xfce-theme --noconfirm
+sudo pacman -S dawn-xfce-theme --noconfirm
 sudo pacman -S delicate-xfce-theme --noconfirm
 sudo pacman -S destruction-xfce-theme --noconfirm
 sudo pacman -S default-xfce-theme --noconfirm

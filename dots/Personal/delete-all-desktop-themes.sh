@@ -4,6 +4,7 @@ sudo pacman -Rs archlinux-xfce-theme --noconfirm
 sudo pacman -Rs artwork-xfce-theme --noconfirm
 sudo pacman -Rs delicate-xfce-theme --noconfirm
 sudo pacman -Rs arco-xfce-theme --noconfirm
+sudo pacman -Rs dawn-xfce-theme --noconfirm
 sudo pacman -Rs astronaut-xfce-theme --noconfirm
 sudo pacman -Rs beach-xfce-theme --noconfirm
 sudo pacman -Rs biohazard-xfce-theme --noconfirm

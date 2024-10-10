@@ -246,6 +246,7 @@ libreoffice-fresh
 # Themes
 emilia-xfce-theme
 default-xfce-theme
+dawn-xfce-theme
 citylights-xfce-theme
 red-moon-xfce-theme
 soane-nebula-theme
