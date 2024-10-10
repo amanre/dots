@@ -38,6 +38,7 @@ sudo pacman -Rs mountainsunset-xfce-theme --noconfirm
 sudo pacman -Rs mountain-xfce-theme --noconfirm
 sudo pacman -Rs moonlight-xfce-theme --noconfirm
 sudo pacman -Rs neon-xfce-theme --noconfirm
+sudo pacman -Rs northern-light-xfce-theme --noconfirm
 sudo pacman -Rs planet-xfce-theme --noconfirm
 sudo pacman -Rs porsche-xfce-theme --noconfirm
 sudo pacman -Rs panorama-xfce-theme --noconfirm
