@@ -39,7 +39,7 @@ if grep -q dots_repo /etc/pacman.conf; then
   echo "################################################################"
   tput sgr0
   echo
-  sh repo/get-dots_repo.sh
+  sh repo/get-dots-repo.sh
   sudo pacman -Sy
 
 
