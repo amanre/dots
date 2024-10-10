@@ -111,7 +111,7 @@ gtk-themes-git
 icon-themes-git
 archlinux-logout-git
 archlinux-tweak-tool-git
-archlinux-logout-themes-git
+#archlinux-logout-themes-git
 betterlockscreen
 ttf-bitstream-vera
 ttf-dejavu

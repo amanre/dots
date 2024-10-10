@@ -110,6 +110,4 @@ read Reboot
 case $Reboot in
 1)
   sudo sudo reboot ;;
-2)
-  do nothing;;
 

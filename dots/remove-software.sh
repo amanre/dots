@@ -185,20 +185,21 @@ if grep -q "EndeavourOS" /etc/os-release; then
   sudo pacman -R --noconfirm yay
   sudo pacman -R --noconfirm sddm
   sudo pacman -R --noconfirm endeavouros-theming
-  sudo pacman -R --noconfirm endeavouros-xfce-terminal-colors 
+  sudo pacman -R --noconfirm xfce4-screensaver
+  
   
   # sudo rm -r /etc/skel/.config/Kvantum
-   sudo rm -r /etc/skel/.config/gtk-3.0
+   #sudo rm -r /etc/skel/.config/gtk-3.0
   # sudo rm -r /etc/skel/.config/variety
-   sudo rm -r /etc/skel/.config/Thunar
-   sudo rm -r /etc/skel/.config/xfce4
-   sudo rm /etc/skel/.config/xfce4/panel/whiskermenu-7.rc
+  #sudo rm -r /etc/skel/.config/Thunar
+   #sudo rm -r /etc/skel/.config/xfce4
+   #sudo rm /etc/skel/.config/xfce4/panel/whiskermenu-7.rc
 
    echo
     echo "Changing the whiskermenu"
     echo
-    cp $installed_dir/Personal/settings/eos/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce-panel.xml
-    sudo cp $installed_dir/settings/eos/xfce-panel.xml /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce-panel.xml
+    cp $installed_dir/Personal/settings/endeavouros/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce-panel.xml
+    sudo cp $installed_dir/settings/endeavouros/xfce-panel.xml /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce-panel.xml
 
   echo
   tput setaf 2
