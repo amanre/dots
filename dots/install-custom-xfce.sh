@@ -214,6 +214,7 @@ archiso
 dmenu
 downgrade
 duf
+dunst
 feh
 gnome-disk-utility
 htop
