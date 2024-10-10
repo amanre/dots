@@ -138,6 +138,26 @@ file-roller
 font-manager
 galculator
 gparted
+
+# Gh0st-Repo
+gh0stzk-curser-qogirr
+gh0stzk-gtk-themes
+gh0stzk-icons-beautyline
+gh0stzk-icons-candy
+gh0stzk-icons-catppuccin-mocha
+gh0stzk-icons-dracula
+gh0stzk-icons-glassy
+gh0stzk-icons-grovebox-plus-dark
+gh0stzk-icons-hack
+gh0stzk-icons-luv
+gh0stzk-icons-sweet-rainbow
+gh0stzk-icons-tokyo-night
+gh0stzk-icons-vimix-white
+gh0stzk-icons-zafiro
+gh0stzk-icons-zafiro-purple
+
+
+
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #proton-ge-custom-bin
@@ -173,16 +193,16 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-samsung-unified-driver-common
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
-canon-pixma-ts5055-complete
+#samsung-unified-driver-common
+#samsung-unified-driver-printer
+#samsung-unified-driver-scanner
+#canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
-#obs
+obs
 gimp
 gpick
-#cava
+cava
 inkscape
 simple-scan
 guvcview
