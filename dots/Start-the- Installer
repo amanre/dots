@@ -85,6 +85,7 @@ sh 11-autostart-applications*
 #sh snapper-btrfs-setup*
 sh timeshift-btrfs-setup*
 sh 13-install-all-fonts-needed-for-conkys*
+sh refresh_conky.sh*
 #sh 14-dep-calamares*
 
 # change shell to zsh
