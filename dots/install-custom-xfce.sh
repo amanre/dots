@@ -22,7 +22,7 @@ echo "################################################################"
 tput sgr0
 echo
 
-if grep -q amoslinux_repo /etc/pacman.conf; then
+if grep -q dots_repo /etc/pacman.conf; then
 
   echo
   tput setaf 2
@@ -39,7 +39,7 @@ if grep -q amoslinux_repo /etc/pacman.conf; then
   echo "################################################################"
   tput sgr0
   echo
-  sh repo/get-amoslinux-repo.sh
+  sh repo/get-dots_repo.sh
   sudo pacman -Sy
 
 

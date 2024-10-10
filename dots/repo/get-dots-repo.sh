@@ -1,7 +1,7 @@
 #!/bin/bash
 echo '
 
-[amoslinux_repo]
+[dots_repo]
 SigLevel = Optional TrustedOnly
 Server = https://amanre.github.io/$repo/$arch
 
