@@ -232,7 +232,6 @@ zsh-theme-powerlevel10k-git
 sane
 xfce4-mpc-plugin
 ttf-meslo-nerd-font-powerlevel10k
-kdocker
 kshutdown
 xscreensaver
 imagewriter
