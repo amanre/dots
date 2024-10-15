@@ -82,6 +82,7 @@ custom-xfce4
 xfce-theme-manager
 pamac-aur
 grub-customizer
+multicolor-sddm-theme
 catppuccin-icons
 plank
 plank-themes-git
@@ -186,6 +187,11 @@ skypeforlinux-stable-bin
 linux-zen
 linux-zen-headers
 
+# Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ nvidia-dkms
+ lib32-nvidia
+ nvidia-settings
+
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
 cups-pdf
@@ -194,10 +200,10 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-#samsung-unified-driver-common
-#samsung-unified-driver-printer
-#samsung-unified-driver-scanner
-#canon-pixma-ts5055-complete
+samsung-unified-driver-common
+samsung-unified-driver-printer
+samsung-unified-driver-scanner
+canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
 obs

@@ -186,7 +186,7 @@ if grep -q "EndeavourOS" /etc/os-release; then
   sudo pacman -R --noconfirm sddm
   sudo pacman -R --noconfirm endeavouros-theming
   sudo pacman -R --noconfirm xfce4-screensaver
-  
+  sudo pacman -R --noconfirm nvidia
   
   # sudo rm -r /etc/skel/.config/Kvantum
    #sudo rm -r /etc/skel/.config/gtk-3.0
