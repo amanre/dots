@@ -155,6 +155,7 @@ installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/Personal/settings/arco/
 
 sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
+sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
 	    
   echo
   tput setaf 2
@@ -201,7 +202,7 @@ if grep -q "EndeavourOS" /etc/os-release; then
 cd $installed_dir/Personal/settings/eos/
 
 sudo cp -Rf  xfce4-panel.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
-
+sudo cp -Rf  xfce4-desktop.xml   /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
   echo
   tput setaf 2
   echo "######################################################"
