@@ -43,8 +43,7 @@ echo;tput sgr0
 sudo pacman -S archlinux-appstream-data --noconfirm
 #cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 cp  /etc/skel/. ~
-wal -i /usr/share/backgrounds/walls/wall-09.jpg
-/usr/share/amos/pywal-conky/refresh_conky.sh
+
 
 tput setaf 2
 echo "################################################################"

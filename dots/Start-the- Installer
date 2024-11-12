@@ -96,6 +96,8 @@ sudo chsh $USER -s /bin/zsh
 # Final skel
 sh skel*
 skel
+sh wal.sh*
+
 echo "
 #=================================
 #= Do you want to reboot now ?   =
