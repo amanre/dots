@@ -74,18 +74,42 @@ case $Monitor in
 esac
 
 
+echo "
+#=================================
+#=     Do you want a dock ?      =
+#=================================
+
+1) yes
+2) no
+
+
+"
+
+read dock
+case $dock in
+1)
+sudo pacman -S --noconfirm plank plank-themes-git  custom-xfce4;; 
+2)
+sudo pacman -S --noconfirm  custom-xfce-without-dock;;
+
+  
+*)
+ 
+esac
+
+
 
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-custom-xfce4
+#custom-xfce4
 xfce-theme-manager
 pamac-aur
 grub-customizer
 multicolor-sddm-theme
 catppuccin-icons
-plank
-plank-themes-git
+#plank
+#plank-themes-git
 conky-lua-archers
 pywal-conky-git
 python-pywal
@@ -127,7 +151,8 @@ adobe-source-sans-fonts
 gsfonts
 sublime-text-4
 geany
-geany-plugins
+arcolinux-geany-git
+#geany-plugins
 visual-studio-code-bin
 spotify
 spotify-adblock-git
@@ -244,7 +269,7 @@ imagewriter
 xorg-xsetroot
 flameshot
 gnome-screenshot
-arcolinux-kvantum-git
+arcilinux-kvantum-git
 
 # Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 libreoffice-fresh
