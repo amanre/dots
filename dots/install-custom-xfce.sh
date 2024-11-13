@@ -102,14 +102,11 @@ esac
 PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#custom-xfce4
 xfce-theme-manager
 pamac-aur
 grub-customizer
 multicolor-sddm-theme
 catppuccin-icons
-#plank
-#plank-themes-git
 conky-lua-archers
 pywal-conky-git
 python-pywal
@@ -201,7 +198,7 @@ lutris
 wine-staging
 winetricks
 playonlinux
-alvr
+
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 discord
