@@ -84,6 +84,7 @@ sh 8-fix-simplescreenrecorder*
 sh 9-fix-sublime-text-icons*
 sh 10-fix-telegram*
 sh 11-autostart-applications*
+sh display-manager.sh*
 #sh delete-all-desktop-themes.sh*
 #sh install-all-desktop-themes.sh*
 #sh snapper-btrfs-setup*
