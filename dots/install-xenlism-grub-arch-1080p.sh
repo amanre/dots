@@ -24,4 +24,4 @@ echo
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/xenlism-grub-arch-1080p
 
-sh  sudo install.sh
+sudo sh  install.sh
