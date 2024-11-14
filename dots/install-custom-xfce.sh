@@ -115,8 +115,8 @@ win11-icons-git
 root-git
 tokyonight-icons
 tela-icons
-paru-git
-yay-git
+#paru-git
+#yay-git
 arandr
 xrandr
 grub-themes
@@ -132,7 +132,7 @@ thunderbird
 gtk-themes-git
 icon-themes-git
 archlinux-logout-git
-archlinux-tweak-tool-git
+#archlinux-tweak-tool-git
 #archlinux-logout-themes-git
 betterlockscreen
 ttf-bitstream-vera
@@ -148,8 +148,7 @@ adobe-source-sans-fonts
 gsfonts
 sublime-text-4
 geany
-arcolinux-geany-git
-#geany-plugins
+geany-plugins
 visual-studio-code-bin
 spotify
 spotify-adblock-git
@@ -183,21 +182,21 @@ gh0stzk-icons-gruvbox-plus-dark
 
 # Gaming Related ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-proton-ge-custom-bin
-protonup-git
-proton-community-updater
-steam
-steam-fonts
-steam-tweaks
-steam-native-runtime
-goverlay-bin
-bottles
-gamemode
-lib32-gamemode
-lutris
-wine-staging
-winetricks
-playonlinux
+#proton-ge-custom-bin
+#protonup-git
+#proton-community-updater
+#steam
+#steam-fonts
+#steam-tweaks
+#steam-native-runtime
+#goverlay-bin
+#bottles
+#gamemode
+#lib32-gamemode
+#lutris
+#wine-staging
+#winetricks
+#playonlinux
 
 
 # Internet ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -210,9 +209,9 @@ linux-zen
 linux-zen-headers
 
 # Nvidia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- nvidia-dkms
- lib32-nvidia
- nvidia-settings
+ #nvidia-dkms
+ #lib32-nvidia
+ #nvidia-settings
 
 # Printer related +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 cups
@@ -222,10 +221,10 @@ gutenprint
 gtk3-print-backends
 libcups
 system-config-printer
-samsung-unified-driver-common
-samsung-unified-driver-printer
-samsung-unified-driver-scanner
-canon-pixma-ts5055-complete
+#samsung-unified-driver-common
+#samsung-unified-driver-printer
+#samsung-unified-driver-scanner
+#canon-pixma-ts5055-complete
 # Multimedia ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 simplescreenrecorder
 obs
