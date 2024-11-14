@@ -117,7 +117,7 @@ if grep -q "ArcoLinux" /etc/os-release; then
     sudo pacman -Rs arcolinux-zsh-git --noconfirm
     sudo pacman -Rs arcolinux-config-all-desktops-git --noconfirm
     sudo pacman -Rs arcolinux-dconf-all-desktops-git --noconfirm
-    sudo pacman -Rs arcolinux-wallpaper-git
+    sudo pacman -Rs arcolinux-wallpapers-git
     sudo pacman -Rs arcolinux-neofetch-git --noconfirm
     sudo pacman -Rs arcolinux-hyfetch-git --noconfirm
     sudo pacman -Rs chromium --noconfirm
