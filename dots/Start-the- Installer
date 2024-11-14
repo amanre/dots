@@ -54,6 +54,7 @@ sh remove-software.sh*
 sh install-custom-xfce*
 sh install-bspwm*
 sh install-rofi*
+sh install-xenlism-grub-arch-1080p.sh*
 sh software-AUR-repo*
 sh mpd-ncmpcpp*
 sh zram.sh*
