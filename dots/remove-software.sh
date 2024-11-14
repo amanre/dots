@@ -31,14 +31,9 @@ echo "######################################################"
 tput sgr0
 echo
 
-sudo pacman -Rs --noconfirm nomacs
-sudo pacman -Rs --noconfirm hardinfo-gtk3
-sudo pacman -Rs --noconfirm paru-bin
-sudo pacman -Rs --noconfirm yay-bin
 sudo pacman -Rs broadcom-wl-dkms --noconfirm
 sudo pacman -Rs rtl8821cu-morrownr-dkms-git --noconfirm
 sudo pacman -Rs --noconfirm archinstall
-sudo pacman -Rs pragha --noconfirm
 sudo pacman -Rs lftp --noconfirm
 sudo pacman -Rs xf86-video-amdgpu --noconfirm
 sudo pacman -Rs xf86-video-fbdev --noconfirm
