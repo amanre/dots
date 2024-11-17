@@ -103,7 +103,7 @@ PKGS=(
 
 # Custom-Repo ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 xfce-theme-manager
-pamac-aur
+#pamac-aur
 grub-customizer
 multicolor-sddm-theme
 catppuccin-icons
