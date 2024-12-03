@@ -13,13 +13,6 @@
 #tput setaf 8 = light blue
 ##################################################################################################################
 
-echo
-tput setaf 3
-echo "################################################################"
-echo "################### Going to the rofi folder"
-echo "################################################################"
-tput sgr0
-echo
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 cd $installed_dir/xenlism-grub-arch-1080p
