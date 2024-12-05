@@ -281,6 +281,7 @@ space-nebula-theme
 phoenix-xfce-theme
 maya-xfce-theme
 marta-xfce-theme
+karla-xfce-theme
 
 )
 
