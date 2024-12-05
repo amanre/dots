@@ -51,6 +51,7 @@ sudo pacman -Rs --noconfirm adobe-source-han-sans-cn-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-jp-fonts
 sudo pacman -Rs --noconfirm adobe-source-han-sans-kr-fonts
 sudo pacman -Rs --noconfirm vim vim-runtime
+sudo pacman -Rs --noconfirm xfce4-screensaver
 
 
 # when on Arch Linux - remove conflicting files
