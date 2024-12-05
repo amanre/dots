@@ -158,6 +158,7 @@ mpv
 soundconverter
 file-roller
 font-manager
+fastfetch
 galculator
 gparted
 
