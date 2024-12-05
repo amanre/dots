@@ -266,7 +266,7 @@ imagewriter
 xorg-xsetroot
 flameshot
 gnome-screenshot
-arcilinux-kvantum-git
+arcolinux-kvantum-git
 
 # Office ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 libreoffice-fresh
