@@ -283,6 +283,7 @@ phoenix-xfce-theme
 maya-xfce-theme
 marta-xfce-theme
 karla-xfce-theme
+les-paul-xfce-theme
 
 )
 
